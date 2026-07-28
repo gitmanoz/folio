@@ -1,0 +1,39 @@
+{
+  "referenceImplementation": "lucas-professional-experience",
+  "slice": 3,
+  "direction": "Architectural Living Tech — wide editorial composition",
+  "generatedAt": "2026-07-27T21:30:00Z",
+  "defaultLanguage": "en",
+  "secondaryLanguage": "pt-BR",
+  "absoluteRoot": "C:\\Users\\fsefsefsef\\Desktop\\MOBS_WORKSPACE\\mobs\\artifacts\\lucas-professional-experience",
+  "indexHtml": "C:\\Users\\fsefsefsef\\Desktop\\MOBS_WORKSPACE\\mobs\\artifacts\\lucas-professional-experience\\index.html",
+  "pipeline": [
+    "generate-web-experience EN+PT",
+    "snapshot pure/",
+    "validate-web-experience on pure HTML",
+    "ri/postprocess.mjs",
+    "smoke + screenshots"
+  ],
+  "fingerprintsPure": {
+    "en": "eaa9c330cf35f9334775fa816b94fcb6d2f6ce9b8eefab6766cb90460a390471",
+    "ptBR": "3b11da24778c0aff4dbd28239509af41286ce250b16a1dae900042f6cd749384"
+  },
+  "validation": {
+    "en": { "reportStatus": "pass", "artifactPath": "pure/en/index.html" },
+    "ptBR": { "reportStatus": "pass", "artifactPath": "pure/pt-BR/index.html" }
+  },
+  "screenshots": [
+    "screenshots/viewport-1920.png",
+    "screenshots/viewport-1440.png",
+    "screenshots/viewport-768.png",
+    "screenshots/viewport-390.png",
+    "screenshots/timeline-open-1440.png",
+    "screenshots/timeline-open-390.png",
+    "screenshots/journey-map-1440.png"
+  ],
+  "notes": [
+    "WES catalog-full compositions materialize from Spec compositionPattern (Generator).",
+    "RI postprocess chrome-only when generatorOwnsLayout (lang switch + LinkedIn CTA).",
+    "purpose used as editorial eyebrow in RI Specs (L7 discovery; not promoted)."
+  ]
+}
