@@ -1,0 +1,2 @@
+# Arquivo auxiliar para o runner Windows do Priston Loot Filter.
+# As dependencias reais ficam dentro do bundle em priston-loot-filter/requirements.txt.
