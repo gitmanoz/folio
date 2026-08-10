@@ -1,0 +1,76 @@
+name: Build Priston Loot Filter Standalone v2
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Restore source bundle
+        shell: pwsh
+        run: |
+          $b64 = Get-Content -Raw 'priston-build/source-v2.zip.b64'
+          [IO.File]::WriteAllBytes('priston-source.zip', [Convert]::FromBase64String($b64.Trim()))
+          Expand-Archive -Path 'priston-source.zip' -DestinationPath 'priston-loot-filter' -Force
+
+      - name: Install Python dependencies
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r priston-loot-filter/requirements.txt
+          python -m pip install pyinstaller
+
+      - name: Install Tesseract OCR
+        shell: pwsh
+        run: |
+          choco install tesseract -y --no-progress
+          $candidates = @(
+            'C:\Program Files\Tesseract-OCR',
+            'C:\ProgramData\chocolatey\lib\tesseract\tools'
+          )
+          $tess = $null
+          foreach ($c in $candidates) {
+            if (Test-Path "$c\tesseract.exe") { $tess = $c; break }
+          }
+          if (-not $tess) { throw 'Tesseract nao encontrado apos instalacao' }
+          if (!(Test-Path "$tess\tessdata")) { New-Item -ItemType Directory -Path "$tess\tessdata" | Out-Null }
+          if (!(Test-Path "$tess\tessdata\por.traineddata")) {
+            Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/por.traineddata' -OutFile "$tess\tessdata\por.traineddata"
+          }
+          "TESSERACT_DIR=$tess" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          & "$tess\tesseract.exe" --version
+          & "$tess\tesseract.exe" --list-langs
+
+      - name: Build single-file EXE
+        shell: pwsh
+        working-directory: priston-loot-filter
+        run: |
+          $tess = $env:TESSERACT_DIR
+          pyinstaller --noconfirm --clean --onefile --windowed `
+            --name PristonLootFilter `
+            --add-data 'data;data' `
+            --add-data "$tess;tesseract" `
+            --collect-all cv2 `
+            --collect-all pytesseract `
+            main.py
+          if (!(Test-Path 'dist\PristonLootFilter.exe')) { throw 'EXE nao foi gerado' }
+          Get-Item 'dist\PristonLootFilter.exe' | Format-List Name,Length,FullName
+
+      - name: Upload standalone EXE
+        uses: actions/upload-artifact@v4
+        with:
+          name: PristonLootFilter-Standalone-v2
+          path: priston-loot-filter/dist/PristonLootFilter.exe
+          if-no-files-found: error
+          compression-level: 0
