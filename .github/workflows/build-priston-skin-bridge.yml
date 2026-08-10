@@ -1,0 +1,38 @@
+name: Build Priston Skin Bridge
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PyInstaller
+        shell: pwsh
+        run: python -m pip install --upgrade pip pyinstaller
+
+      - name: Build EXE
+        shell: pwsh
+        working-directory: priston-skin-bridge
+        run: |
+          pyinstaller --noconfirm --clean --onefile --windowed --name PristonSkinBridge app.py
+          if (!(Test-Path 'dist\PristonSkinBridge.exe')) { throw 'EXE nao foi gerado' }
+          Get-Item 'dist\PristonSkinBridge.exe' | Format-List Name,Length,FullName
+
+      - name: Upload EXE
+        uses: actions/upload-artifact@v4
+        with:
+          name: PristonSkinBridge-Standalone
+          path: priston-skin-bridge/dist/PristonSkinBridge.exe
+          if-no-files-found: error
+          compression-level: 0
