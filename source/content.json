@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "name": "Lucas Neukirchen",
+    "role": "AI Systems Architect · Founder of MOBS",
+    "linkedin": "https://www.linkedin.com/in/lucas-neukirchen-b7987218b/"
+  },
+  "evidence": {
+    "profile": {
+      "labels": {
+        "en": "Documented professional journey",
+        "pt-BR": "Trajetória profissional documentada"
+      }
+    },
+    "mobs": {
+      "labels": {
+        "en": "Institutional architecture",
+        "pt-BR": "Arquitetura institucional"
+      }
+    },
+    "ari": {
+      "labels": {
+        "en": "Authority and execution boundaries",
+        "pt-BR": "Fronteiras de autoridade e execução"
+      }
+    },
+    "wes": {
+      "labels": {
+        "en": "Generated editorial experiences",
+        "pt-BR": "Experiências editoriais geradas"
+      }
+    },
+    "odysseus": {
+      "labels": {
+        "en": "Desktop and governed engineering",
+        "pt-BR": "Desktop e engenharia governada"
+      }
+    },
+    "promotion": {
+      "labels": {
+        "en": "Private work and controlled promotion",
+        "pt-BR": "Trabalho privado e promoção controlada"
+      }
+    },
+    "map": {
+      "labels": {
+        "en": "Implemented scope and documented limits",
+        "pt-BR": "Escopo implementado e limites documentados"
+      }
+    },
+    "sentinel": {
+      "labels": {
+        "en": "Godot project: gameplay and systems",
+        "pt-BR": "Projeto Godot: gameplay e sistemas"
+      }
+    },
+    "player": {
+      "labels": {
+        "en": "Animation states and gameplay integration",
+        "pt-BR": "Estados de animação e integração com gameplay"
+      }
+    },
+    "terrain": {
+      "labels": {
+        "en": "Toxic City visual sample",
+        "pt-BR": "Recorte visual da Toxic City"
+      }
+    }
+  },
+  "locales": {
+    "en": {
+      "ui": {
+        "home": "Overview",
+        "work": "Selected work",
+        "evidence": "Evidence of the work",
+        "contact": "Let's talk",
+        "skip": "Skip to content",
+        "open": "Explore case",
+        "back": "All projects",
+        "status": "Current state",
+        "language": "Language",
+        "navigation": "Main navigation",
+        "legacy": "Previous version",
+        "sourceNote": "Selected implementation records and visual material, with current state and limitations kept explicit.",
+        "terrainAlt": "Toxic City arena: industrial pixel-art terrain with a circular central area and green toxic channels.",
+        "terrainCaption": "Real project asset · pinned repository version. Static preview, not a playable demo."
+      },
+      "home": {
+        "eyebrow": "Knowledge → systems → products",
+        "title": "Lucas Neukirchen",
+        "subtitle": "AI Systems Architect · Founder of MOBS",
+        "body": "I turn accumulated knowledge into reusable engineering capabilities. My work connects software quality, AI systems and product engineering — from institutional architecture to concrete implementation.",
+        "workIntro": "Three projects. Different responsibilities. One engineering approach.",
+        "approachTitle": "A method visible in the work",
+        "approach": [
+          "Understand before automating — define the problem, responsibilities and boundaries.",
+          "Make decisions inspectable — preserve sources, versions and evidence.",
+          "Build for reuse — keep project-specific choices separate from shared capabilities."
+        ],
+        "trajectoryTitle": "Experience that shaped the approach",
+        "trajectoryBody": "Teaching and learning systems developed clarity. Software development and quality assurance added engineering discipline. Conversational AI and product operations connected that experience to knowledge systems and automation.",
+        "trajectory": [
+          "Wizard / T-Systems / VAD — teaching, training and learning systems.",
+          "Casa96 / IBM — game development and software quality assurance.",
+          "ProTrade / Sitel Group — content operations and conversational analysis.",
+          "MOBS — reusable engineering capabilities from accumulated knowledge."
+        ],
+        "contactBody": "Explore the work and its evidence, or connect with me on LinkedIn."
+      },
+      "cases": {
+        "mobs": {
+          "number": "01",
+          "tag": "Institutional architecture",
+          "title": "MOBS",
+          "subtitle": "Mission Orchestration & Build System",
+          "summary": "Knowledge becomes reusable engineering infrastructure.",
+          "state": "Platform implementation + approved architecture",
+          "intro": "MOBS is the engineering platform of the Missão ecosystem. It separates institutional knowledge, project configuration and deterministic materialization so that new products can reuse established capabilities.",
+          "contribution": "As founder, I define the architectural direction and guide the evolution of knowledge, responsibilities and engineering cycles. The implementation is developed with AI-assisted workflows; repository evidence anchors this case.",
+          "sections": [
+            {
+              "title": "The problem",
+              "body": "Duplicating infrastructure for each product loses decisions and increases future maintenance. The platform treats documented knowledge and clear contracts as reusable inputs."
+            },
+            {
+              "title": "Architecture in practice",
+              "body": "Project context → MOBS Core → engines and generators → validators. Agent Runtime Integration adds a boundary between institutional authority and external executors.",
+              "pattern": "narrative-chain",
+              "bullets": [
+                "Authority — documents own meaning and responsibility.",
+                "Execution — consumers implement their runtime without redefining the institution.",
+                "Evidence — structural validation and provenance keep outputs inspectable."
+              ]
+            },
+            {
+              "title": "What exists",
+              "body": "Context resolution, documentation, derived asset exports, SEO/PWA generation, release/deploy proposals, Narrative and Web Experience are represented by platform modules. Proposals are not automatic deployment."
+            },
+            {
+              "title": "State and limits",
+              "body": "Agent Runtime Integration and operational authority profiles are approved architecture. Consumer conformity requires its own validation. This case does not claim unrestricted autonomous engineering or commercial adoption."
+            }
+          ],
+          "sources": [
+            "mobs",
+            "ari",
+            "wes"
+          ]
+        },
+        "odysseus": {
+          "number": "02",
+          "tag": "Governed agent runtime",
+          "title": "Odisseus",
+          "subtitle": "From AI workspace to governed engineering environment",
+          "summary": "A practical executor connected to MOBS, with explicit boundaries.",
+          "state": "Implemented slices · ongoing development",
+          "intro": "Odisseus is an existing AI workspace adapted as the first consumer of MOBS Agent Runtime Integration. It reuses its backend, UI and Agent Loop while adding governed execution and promotion.",
+          "contribution": "I guide the architectural decisions, scope and review of the MOBS integration and product experience. This is an evolution of an existing codebase, not a claim to have authored every inherited feature.",
+          "sections": [
+            {
+              "title": "A useful foundation",
+              "body": "The Windows Desktop packages the existing backend and UI. Product Shell, the Graphite theme, workspace-first boot and intent-first proposals make the engineering flow more accessible."
+            },
+            {
+              "title": "Private work, explicit promotion",
+              "body": "Institutional Boot → exact mandate → private execution → sealed Promotion Artifact → authorization → application and verification.",
+              "pattern": "narrative-chain",
+              "bullets": [
+                "TEB — a private workspace and controlled process boundary.",
+                "Promotion — hashes, preimages and baseline bind the candidate to its execution.",
+                "Authorization — review, mandate approval and operational policy remain separate."
+              ]
+            },
+            {
+              "title": "Implemented scope",
+              "body": "Published checkpoints cover Controlled Promotion, governed self-development, exactly two-file create/write promotion, Python command recipes and typed Git branch/HEAD/status reads."
+            },
+            {
+              "title": "What is still incomplete",
+              "body": "The audited Capability Map records a physical Windows TEB blocker and incomplete durable execution, Git closure and general Computer Use. Self-update is future work. These source checkpoints do not establish universal runtime safety or full Codex parity."
+            }
+          ],
+          "sources": [
+            "odysseus",
+            "promotion",
+            "map",
+            "ari"
+          ]
+        },
+        "last-sentinel": {
+          "number": "03",
+          "tag": "Game & systems engineering",
+          "title": "The Last Sentinel",
+          "subtitle": "Gameplay, animation and atmosphere in one project",
+          "summary": "A Godot game as a concrete field for engineering and visual integration.",
+          "state": "Game in development · repository evidence",
+          "intro": "The Last Sentinel brings together Godot scenes, GDScript, gameplay systems, sprite animation and environmental effects. Toxic City is a real project environment, shown here as a static source asset.",
+          "contribution": "The project is part of my software/game-development work. This case focuses on inspectable programming and systems integration; it does not claim exclusive authorship of every artwork or third-party tool.",
+          "sections": [
+            {
+              "title": "Animation connected to gameplay",
+              "body": "The inspected player code includes idle, walk, shoot, hurt and death states, playback timing and reactions. Quality depends on readable poses, weight, timing and gameplay events — not frame count alone."
+            },
+            {
+              "title": "Toxic City",
+              "body": "The project contains an industrial arena, toxic props, vents and fog. The displayed arena is copied from the pinned remote baseline with matching content; newer local HD characters and fog implementations are excluded."
+            },
+            {
+              "title": "A verifiable snapshot",
+              "body": "This case describes a verified project snapshot. A separate local workspace contains divergent scripts and assets and is not treated as equivalent."
+            },
+            {
+              "title": "State and limits",
+              "body": "Windows and Android export presets exist. A web export or playable portfolio slice has not been validated and is not included. No launch, revenue, player count or commercial performance is asserted."
+            }
+          ],
+          "sources": [
+            "sentinel",
+            "player",
+            "terrain"
+          ]
+        }
+      }
+    },
+    "pt-BR": {
+      "ui": {
+        "home": "Visão geral",
+        "work": "Projetos selecionados",
+        "evidence": "Evidências do trabalho",
+        "contact": "Vamos conversar",
+        "skip": "Ir para o conteúdo",
+        "open": "Explorar case",
+        "back": "Todos os projetos",
+        "status": "Estado atual",
+        "language": "Idioma",
+        "navigation": "Navegação principal",
+        "legacy": "Versão anterior",
+        "sourceNote": "Registros selecionados de implementação e material visual, com estado atual e limitações explícitos.",
+        "terrainAlt": "Arena Toxic City: cenário industrial em pixel art, com área central circular e canais tóxicos verdes.",
+        "terrainCaption": "Asset real do projeto · versão fixada do repositório. Preview estático, sem demonstração jogável."
+      },
+      "home": {
+        "eyebrow": "Conhecimento → sistemas → produtos",
+        "title": "Lucas Neukirchen",
+        "subtitle": "AI Systems Architect · Fundador do MOBS",
+        "body": "Transformo conhecimento acumulado em capacidades de engenharia reutilizáveis. Meu trabalho conecta qualidade de software, sistemas de IA e engenharia de produto — da arquitetura institucional à implementação concreta.",
+        "workIntro": "Três projetos. Responsabilidades distintas. Uma abordagem de engenharia.",
+        "approachTitle": "Um método visível no trabalho",
+        "approach": [
+          "Compreender antes de automatizar — definir problema, responsabilidades e fronteiras.",
+          "Tornar decisões inspecionáveis — preservar fontes, versões e evidências.",
+          "Construir para reutilizar — separar escolhas de projeto das capacidades compartilhadas."
+        ],
+        "trajectoryTitle": "Experiências que formaram a abordagem",
+        "trajectoryBody": "Ensino e sistemas de aprendizagem desenvolveram clareza. Desenvolvimento de software e garantia de qualidade acrescentaram disciplina de engenharia. IA conversacional e operações de produto conectaram essa experiência a sistemas de conhecimento e automação.",
+        "trajectory": [
+          "Wizard / T-Systems / VAD — ensino, treinamento e sistemas de aprendizagem.",
+          "Casa96 / IBM — desenvolvimento de jogos e qualidade de software.",
+          "ProTrade / Sitel Group — operações de conteúdo e análise conversacional.",
+          "MOBS — capacidades de engenharia reutilizáveis a partir de conhecimento acumulado."
+        ],
+        "contactBody": "Explore os projetos e suas evidências ou converse comigo pelo LinkedIn."
+      },
+      "cases": {
+        "mobs": {
+          "number": "01",
+          "tag": "Arquitetura institucional",
+          "title": "MOBS",
+          "subtitle": "Mission Orchestration & Build System",
+          "summary": "Conhecimento transformado em infraestrutura de engenharia reutilizável.",
+          "state": "Implementação de plataforma + arquitetura aprovada",
+          "intro": "MOBS é a plataforma de engenharia do Ecossistema Missão. Separa conhecimento institucional, configuração de projeto e materialização determinística para que novos produtos reutilizem capacidades estabelecidas.",
+          "contribution": "Como fundador, defino a direção arquitetural e conduzo a evolução do conhecimento, das responsabilidades e dos ciclos de engenharia. A implementação utiliza workflows assistidos por IA; evidências de repositório sustentam este case.",
+          "sections": [
+            {
+              "title": "O problema",
+              "body": "Duplicar infraestrutura por produto perde decisões e aumenta manutenção futura. A plataforma trata conhecimento documentado e contratos claros como entradas reutilizáveis."
+            },
+            {
+              "title": "Arquitetura na prática",
+              "body": "Contexto de projeto → MOBS Core → engines e generators → validators. Agent Runtime Integration acrescenta uma fronteira entre autoridade institucional e executores externos.",
+              "pattern": "narrative-chain",
+              "bullets": [
+                "Autoridade — documentos possuem significado e responsabilidade.",
+                "Execução — consumidores implementam seu runtime sem redefinir a instituição.",
+                "Evidência — validação estrutural e provenance mantêm saídas inspecionáveis."
+              ]
+            },
+            {
+              "title": "O que existe",
+              "body": "Resolução de contextos, documentação, exports derivados de assets, geração SEO/PWA, propostas de release/deploy, Narrative e Web Experience são representados por módulos da plataforma. Propostas não são deploy automático."
+            },
+            {
+              "title": "Estado e limites",
+              "body": "Agent Runtime Integration e perfis de autorização operacional são arquitetura aprovada. Conformidade de consumidores exige validação própria. Este case não alega engenharia autônoma irrestrita nem adoção comercial."
+            }
+          ],
+          "sources": [
+            "mobs",
+            "ari",
+            "wes"
+          ]
+        },
+        "odysseus": {
+          "number": "02",
+          "tag": "Runtime agente governado",
+          "title": "Odisseus",
+          "subtitle": "De workspace de IA a ambiente de engenharia governada",
+          "summary": "Executor prático conectado ao MOBS, com fronteiras explícitas.",
+          "state": "Fatias implementadas · desenvolvimento contínuo",
+          "intro": "Odisseus é um workspace de IA existente adaptado como primeiro consumidor da Agent Runtime Integration do MOBS. Reutiliza backend, UI e Agent Loop, acrescentando execução e promoção governadas.",
+          "contribution": "Conduzo decisões arquiteturais, escopo e revisão da integração MOBS e da experiência de produto. É evolução de uma base existente, sem atribuir a mim a autoria de todas as funcionalidades herdadas.",
+          "sections": [
+            {
+              "title": "Uma base útil",
+              "body": "O Desktop Windows empacota backend e UI existentes. Product Shell, tema Graphite, boot workspace-first e propostas intent-first tornam o fluxo de engenharia mais acessível."
+            },
+            {
+              "title": "Trabalho privado, promoção explícita",
+              "body": "Institutional Boot → mandato exato → execução privada → Promotion Artifact selado → autorização → aplicação e verificação.",
+              "pattern": "narrative-chain",
+              "bullets": [
+                "TEB — workspace privado e fronteira controlada de processos.",
+                "Promoção — hashes, preimages e baseline vinculam o candidato à execução.",
+                "Autorização — revisão, aprovação de mandato e política operacional permanecem separadas."
+              ]
+            },
+            {
+              "title": "Escopo implementado",
+              "body": "Checkpoints publicados cobrem Controlled Promotion, self-development governado, promoção create/write de exatamente dois arquivos, receitas Python e leitura Git tipada de branch/HEAD/status."
+            },
+            {
+              "title": "O que ainda está incompleto",
+              "body": "O Capability Map auditado registra bloqueador físico da TEB Windows e limitações em execução durável, fechamento Git e Computer Use geral. Self-update é futuro. Esses checkpoints não demonstram segurança universal de runtime nem paridade integral com Codex."
+            }
+          ],
+          "sources": [
+            "odysseus",
+            "promotion",
+            "map",
+            "ari"
+          ]
+        },
+        "last-sentinel": {
+          "number": "03",
+          "tag": "Engenharia de jogos e sistemas",
+          "title": "The Last Sentinel",
+          "subtitle": "Gameplay, animação e atmosfera no mesmo projeto",
+          "summary": "Um jogo Godot como campo concreto de engenharia e integração visual.",
+          "state": "Jogo em desenvolvimento · evidência de repositório",
+          "intro": "The Last Sentinel reúne cenas Godot, GDScript, sistemas de gameplay, animação de sprites e efeitos ambientais. Toxic City é um ambiente real do projeto, apresentado aqui como asset estático de origem verificável.",
+          "contribution": "O projeto integra meu trabalho em desenvolvimento de software e jogos. Este case destaca programação e integração inspecionáveis, sem alegar autoria exclusiva de toda arte ou ferramenta de terceiros.",
+          "sections": [
+            {
+              "title": "Animação ligada ao gameplay",
+              "body": "O código do player examinado inclui idle, walk, shoot, hurt e death, timing de reprodução e reações. Qualidade depende de poses legíveis, peso, timing e eventos de gameplay — não apenas de quantidade de frames."
+            },
+            {
+              "title": "Toxic City",
+              "body": "O projeto contém arena industrial, props tóxicos, vents e névoa. A arena exibida foi copiada do baseline remoto fixado com conteúdo correspondente; personagens HD e implementações de névoa locais mais recentes ficam excluídos."
+            },
+            {
+              "title": "Um snapshot verificável",
+              "body": "Este case descreve um snapshot verificado do projeto. Um workspace local separado possui scripts e assets divergentes e não é tratado como equivalente."
+            },
+            {
+              "title": "Estado e limites",
+              "body": "Existem presets Windows e Android. Export web ou fatia jogável para o portfólio não foram validados e não estão incluídos. Não são alegados lançamento, receita, jogadores ou desempenho comercial."
+            }
+          ],
+          "sources": [
+            "sentinel",
+            "player",
+            "terrain"
+          ]
+        }
+      }
+    }
+  }
+}

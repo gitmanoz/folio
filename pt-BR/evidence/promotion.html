@@ -1,0 +1,33 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Trabalho privado e promoção controlada — Folio</title><link rel="stylesheet" href="../../assets/folio/style.css"><link rel="alternate" hreflang="en" href="../../en/evidence/promotion.html"></head><body><a class="skip" href="#main">Ir para o conteúdo</a><header class="site-header"><a class="brand" href="../index.html">LN<span>Lucas Neukirchen</span></a><nav aria-label="Idioma" class="languages"><a href="../../en/evidence/promotion.html">EN</a><span aria-current="true">PT</span></nav></header><main id="main" class="evidence-page"><a href="../index.html#evidence">← Voltar ao portfólio</a><p class="eyebrow">Evidências do trabalho</p><h1>Trabalho privado e promoção controlada</h1><p class="evidence-meta">Captura de trecho da fonte · 2026-10-12</p><section><h2>O que esta evidência demonstra</h2><p>Mostra selagem do delta de dois arquivos, verificação do inventário e preservação de conteúdo.</p></section><figure><a href="../../assets/folio/evidence/promotion.png" target="_blank" rel="noopener noreferrer" aria-label="Abrir captura em tamanho original"><img src="../../assets/folio/evidence/promotion.png" alt="Trabalho privado e promoção controlada" loading="lazy"></a><figcaption>Controlled Promotion · selected implementation · Material selecionado. A origem completa é mantida no registro privado.</figcaption></figure><details class="transcription"><summary>Ler transcrição literal acessível</summary><pre>def seal_private_effects(private_root: Path, effects: list[dict[str, str]], *, binding: dict[str, Any]) -&gt; dict[str, Any]:
+    &quot;&quot;&quot;Seal exactly two effects as one indivisible approval and validation unit.&quot;&quot;&quot;
+    from src.mobs_institutional_boot import _portable_path
+
+    if len(effects) != 2 or any(effect.get(&quot;effect&quot;) not in {&quot;create&quot;, &quot;write&quot;} for effect in effects):
+        raise PromotionError(&quot;Multi-file artifact requires exactly two create/write effects&quot;)
+    ordered = sorted(effects, key=lambda effect: effect[&quot;path&quot;].casefold())
+    paths = [_portable_path(effect[&quot;path&quot;], &quot;promotion path&quot;) for effect in ordered]
+    if len({path.casefold() for path in paths}) != 2:
+        raise PromotionError(&quot;Multi-file artifact has duplicate paths&quot;)
+    target = _target_from_binding(binding)
+    _require_separate_runtime(target)
+    expected_inventory = binding.get(&quot;target_inventory_sha256&quot;)
+    if not isinstance(expected_inventory, str):
+        raise PromotionError(&quot;Promotion target inventory binding is invalid&quot;)
+    _verify_target_inventory(target, expected_inventory)
+    policy = _policy()
+    root = _store_root_for_target(target)
+    artifact_id = uuid.uuid4().hex
+    directory = root / artifact_id
+    directory.mkdir(mode=0o700)
+    manifest_effects = []
+    before = binding.get(&quot;private_before&quot;) or {}
+    for index, (effect, relative) in enumerate(zip(ordered, paths)):
+        source = (private_root / relative).resolve()
+        if not source.is_relative_to(private_root.resolve()) or source.is_symlink() or not source.is_file():
+            raise PromotionError(&quot;Multi-file effect is not a confined regular file&quot;)
+        preimage = before.get(relative)
+        if effect[&quot;effect&quot;] == &quot;create&quot; and (preimage is not None or (target / relative).exists()):
+            raise PromotionError(&quot;Create effect has a preimage&quot;)
+        if effect[&quot;effect&quot;] == &quot;write&quot; and (not isinstance(preimage, str)
+                                             or not (target / relative).is_file()
+                                             or _file_digest(target / relative) != preimage):</pre></details><section class="evidence-limits"><h2>Contexto e limites</h2><p>Parte selecionada do mecanismo. Não demonstra segurança universal.</p><p>A imagem é uma captura local de um recorte literal do arquivo verificado. Não é captura da interface do GitHub nem da aplicação em execução. O trecho permanece no idioma original.</p></section><p><button type="button" class="evidence-back" data-history-back>← Voltar à afirmação</button></p></main><script src="../../assets/folio/site.js" defer></script></body></html>

@@ -1,0 +1,219 @@
+{
+  "specVersion": "1.0.0",
+  "experienceId": "folio-odysseus-en",
+  "title": "Odisseus — Lucas Neukirchen",
+  "status": "approved",
+  "language": "en",
+  "experienceTier": "L-B",
+  "mediumTargets": [
+    "web-experience"
+  ],
+  "narrativeRef": {
+    "narrativeId": "folio-odysseus",
+    "narrativeSpecVersion": "1.0.0"
+  },
+  "frames": [
+    {
+      "id": "f-hero",
+      "order": 1,
+      "purpose": "Governed agent runtime",
+      "chapterId": "f-hero",
+      "frameIntent": "open-identity",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "banner-hero-split",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Odisseus",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "subtitle",
+          "content": "From AI workspace to governed engineering environment"
+        },
+        {
+          "role": "body",
+          "content": "Odisseus is an existing AI workspace adapted as the first consumer of MOBS Agent Runtime Integration. It reuses its backend, UI and Agent Loop while adding governed execution and promotion.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-0",
+      "order": 2,
+      "purpose": "A useful foundation",
+      "chapterId": "f-section-0",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "A useful foundation",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "The Windows Desktop packages the existing backend and UI. Product Shell, the Graphite theme, workspace-first boot and intent-first proposals make the engineering flow more accessible.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-1",
+      "order": 3,
+      "purpose": "Private work, explicit promotion",
+      "chapterId": "f-section-1",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Private work, explicit promotion",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Institutional Boot → exact mandate → private execution → sealed Promotion Artifact → authorization → application and verification.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "TEB — a private workspace and controlled process boundary.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Promotion — hashes, preimages and baseline bind the candidate to its execution.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Authorization — review, mandate approval and operational policy remain separate.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-2",
+      "order": 4,
+      "purpose": "Implemented scope",
+      "chapterId": "f-section-2",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Implemented scope",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Published checkpoints cover Controlled Promotion, governed self-development, exactly two-file create/write promotion, Python command recipes and typed Git branch/HEAD/status reads.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-3",
+      "order": 5,
+      "purpose": "What is still incomplete",
+      "chapterId": "f-section-3",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "What is still incomplete",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "The audited Capability Map records a physical Windows TEB blocker and incomplete durable execution, Git closure and general Computer Use. Self-update is future work. These source checkpoints do not establish universal runtime safety or full Codex parity.",
+          "sourceFactIds": [
+            "odysseus"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorities": [
+    {
+      "path": "project/automation/future/WEB_EXPERIENCE_SYSTEM.md"
+    },
+    {
+      "path": "docs/mobs/models/VISUAL_LANGUAGE_MODEL.md"
+    }
+  ],
+  "provenance": {
+    "generator": "llm-assisted",
+    "llm": {
+      "provider": "OpenAI",
+      "model": "Codex"
+    },
+    "sourceNarrative": {
+      "narrativeId": "folio-odysseus",
+      "status": "approved",
+      "provenance": {
+        "generator": "llm-assisted",
+        "notes": "Founder execution mandate: first hybrid Folio slice; local review only, no publication."
+      }
+    }
+  },
+  "approval": {
+    "approvedBy": "founder execution mandate",
+    "notes": "Authorized first-slice materialization for local review. This flag is required by WES; it does not assert separate final visual approval or publication approval."
+  }
+}

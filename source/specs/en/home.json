@@ -1,0 +1,187 @@
+{
+  "specVersion": "1.0.0",
+  "experienceId": "folio-home-en",
+  "title": "Lucas Neukirchen — Folio",
+  "status": "approved",
+  "language": "en",
+  "experienceTier": "L-B",
+  "mediumTargets": [
+    "web-experience"
+  ],
+  "narrativeRef": {
+    "narrativeId": "folio-home",
+    "narrativeSpecVersion": "1.0.0"
+  },
+  "frames": [
+    {
+      "id": "f-hero",
+      "order": 1,
+      "purpose": "Knowledge → systems → products",
+      "chapterId": "f-hero",
+      "frameIntent": "open-identity",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "banner-hero-split",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Lucas Neukirchen",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "subtitle",
+          "content": "AI Systems Architect · Founder of MOBS"
+        },
+        {
+          "role": "body",
+          "content": "I turn accumulated knowledge into reusable engineering capabilities. My work connects software quality, AI systems and product engineering — from institutional architecture to concrete implementation.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-approach",
+      "order": 2,
+      "purpose": "A method visible in the work",
+      "chapterId": "f-approach",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "manifesto-list",
+      "slots": [
+        {
+          "role": "title",
+          "content": "A method visible in the work",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Understand before automating — define the problem, responsibilities and boundaries. Make decisions inspectable — preserve sources, versions and evidence. Build for reuse — keep project-specific choices separate from shared capabilities.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Understand before automating — define the problem, responsibilities and boundaries.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Make decisions inspectable — preserve sources, versions and evidence.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Build for reuse — keep project-specific choices separate from shared capabilities.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-trajectory",
+      "order": 3,
+      "purpose": "Experience that shaped the approach",
+      "chapterId": "f-trajectory",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Experience that shaped the approach",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Teaching and learning systems developed clarity. Software development and quality assurance added engineering discipline. Conversational AI and product operations connected that experience to knowledge systems and automation.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Wizard / T-Systems / VAD — teaching, training and learning systems.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Casa96 / IBM — game development and software quality assurance.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "ProTrade / Sitel Group — content operations and conversational analysis.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "MOBS — reusable engineering capabilities from accumulated knowledge.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorities": [
+    {
+      "path": "project/automation/future/WEB_EXPERIENCE_SYSTEM.md"
+    },
+    {
+      "path": "docs/mobs/models/VISUAL_LANGUAGE_MODEL.md"
+    }
+  ],
+  "provenance": {
+    "generator": "llm-assisted",
+    "llm": {
+      "provider": "OpenAI",
+      "model": "Codex"
+    },
+    "sourceNarrative": {
+      "narrativeId": "folio-home",
+      "status": "approved",
+      "provenance": {
+        "generator": "llm-assisted",
+        "notes": "Founder execution mandate: first hybrid Folio slice; local review only, no publication."
+      }
+    }
+  },
+  "approval": {
+    "approvedBy": "founder execution mandate",
+    "notes": "Authorized first-slice materialization for local review. This flag is required by WES; it does not assert separate final visual approval or publication approval."
+  }
+}

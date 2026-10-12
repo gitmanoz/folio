@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Private work and controlled promotion — Folio</title><link rel="stylesheet" href="../../assets/folio/style.css"><link rel="alternate" hreflang="pt-BR" href="../../pt-BR/evidence/promotion.html"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../index.html">LN<span>Lucas Neukirchen</span></a><nav aria-label="Language" class="languages"><a href="../../pt-BR/evidence/promotion.html">PT</a><span aria-current="true">EN</span></nav></header><main id="main" class="evidence-page"><a href="../index.html#evidence">← Back to portfolio</a><p class="eyebrow">Evidence of the work</p><h1>Private work and controlled promotion</h1><p class="evidence-meta">Captured source excerpt · 2026-10-12</p><section><h2>What this evidence demonstrates</h2><p>Shows two-file delta sealing, target inventory checks and content preservation.</p></section><figure><a href="../../assets/folio/evidence/promotion.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size capture"><img src="../../assets/folio/evidence/promotion.png" alt="Private work and controlled promotion" loading="lazy"></a><figcaption>Controlled Promotion · selected implementation · Selected material. Full origin is retained in the private audit record.</figcaption></figure><details class="transcription"><summary>Read accessible verbatim transcript</summary><pre>def seal_private_effects(private_root: Path, effects: list[dict[str, str]], *, binding: dict[str, Any]) -&gt; dict[str, Any]:
+    &quot;&quot;&quot;Seal exactly two effects as one indivisible approval and validation unit.&quot;&quot;&quot;
+    from src.mobs_institutional_boot import _portable_path
+
+    if len(effects) != 2 or any(effect.get(&quot;effect&quot;) not in {&quot;create&quot;, &quot;write&quot;} for effect in effects):
+        raise PromotionError(&quot;Multi-file artifact requires exactly two create/write effects&quot;)
+    ordered = sorted(effects, key=lambda effect: effect[&quot;path&quot;].casefold())
+    paths = [_portable_path(effect[&quot;path&quot;], &quot;promotion path&quot;) for effect in ordered]
+    if len({path.casefold() for path in paths}) != 2:
+        raise PromotionError(&quot;Multi-file artifact has duplicate paths&quot;)
+    target = _target_from_binding(binding)
+    _require_separate_runtime(target)
+    expected_inventory = binding.get(&quot;target_inventory_sha256&quot;)
+    if not isinstance(expected_inventory, str):
+        raise PromotionError(&quot;Promotion target inventory binding is invalid&quot;)
+    _verify_target_inventory(target, expected_inventory)
+    policy = _policy()
+    root = _store_root_for_target(target)
+    artifact_id = uuid.uuid4().hex
+    directory = root / artifact_id
+    directory.mkdir(mode=0o700)
+    manifest_effects = []
+    before = binding.get(&quot;private_before&quot;) or {}
+    for index, (effect, relative) in enumerate(zip(ordered, paths)):
+        source = (private_root / relative).resolve()
+        if not source.is_relative_to(private_root.resolve()) or source.is_symlink() or not source.is_file():
+            raise PromotionError(&quot;Multi-file effect is not a confined regular file&quot;)
+        preimage = before.get(relative)
+        if effect[&quot;effect&quot;] == &quot;create&quot; and (preimage is not None or (target / relative).exists()):
+            raise PromotionError(&quot;Create effect has a preimage&quot;)
+        if effect[&quot;effect&quot;] == &quot;write&quot; and (not isinstance(preimage, str)
+                                             or not (target / relative).is_file()
+                                             or _file_digest(target / relative) != preimage):</pre></details><section class="evidence-limits"><h2>Context and limits</h2><p>Only a selected part of the mechanism. It does not establish universal safety.</p><p>The image captures a locally rendered literal excerpt from the verified file. It is not a GitHub UI screenshot or a running-application screenshot. The excerpt retains its original language.</p></section><p><button type="button" class="evidence-back" data-history-back>← Back to the claim</button></p></main><script src="../../assets/folio/site.js" defer></script></body></html>

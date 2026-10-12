@@ -1,0 +1,188 @@
+{
+  "profile": {
+    "date": "2026-10-12",
+    "source": "Professional Experience Pack",
+    "kind": "source-excerpt",
+    "excerpt": "## Career Highlights (causal chain)\n\n| Stage | Signal | Why the next stage became possible |\n|---|---|---|\n| Teaching | Wizard — English Teacher | Teaching demanded clarity of explanation |\n| Learning Systems | T-Systems — Training | Scaled learning exposed process and system gaps |\n| Instructional Design | VAD — Learning Systems | Designing learning became designing systems |\n| Software Development | Casa96 — Game Development | Shipping products required engineering craft |\n| Quality Assurance | IBM — Senior QA Specialist | Quality work revealed architecture as risk control |\n| Content Operations | ProTrade — Content Manager | Content ops linked knowledge to delivery |\n| Conversational AI | Sitel Group — Senior Conversational Analyst | Dialogue systems joined AI with product operations |\n| AI Systems / MOBS | Founder — MOBS | Knowledge-as-infrastructure became the platform |\n\n---",
+    "image": "assets/folio/evidence/profile.png",
+    "alt": {
+      "en": "Documented professional journey",
+      "pt-BR": "Trajetória profissional documentada"
+    },
+    "proves": {
+      "en": "Records the declared professional roles and career path used by this portfolio.",
+      "pt-BR": "Registra as funções e a trajetória profissional declaradas usadas neste portfólio."
+    },
+    "limits": {
+      "en": "A founder-approved content record; not an independent employment verification.",
+      "pt-BR": "Registro de conteúdo aprovado pelo fundador; não é verificação independente de vínculo empregatício."
+    }
+  },
+  "mobs": {
+    "date": "2026-10-12",
+    "source": "MOBS platform definition",
+    "kind": "source-excerpt",
+    "excerpt": "## O que é o MOBS\n\nO **MOBS** (*Mission Orchestration & Build System*) é a **Plataforma Oficial de Engenharia** do Ecossistema Missão.\n\nEle não é um script isolado, nem um build system limitado a um produto.  \nÉ o sistema que padroniza, orquestra e automatiza processos repetitivos de **qualquer projeto** pertencente ao ecossistema.\n\nA **Missão OAB** é o primeiro produto. Não é o limite do MOBS.",
+    "image": "assets/folio/evidence/mobs.png",
+    "alt": {
+      "en": "Institutional architecture",
+      "pt-BR": "Arquitetura institucional"
+    },
+    "proves": {
+      "en": "Defines the engineering platform and its current official name.",
+      "pt-BR": "Define a plataforma de engenharia e seu significado oficial atual."
+    },
+    "limits": {
+      "en": "Evidence of institutional definition, not a measurement of adoption or commercial results.",
+      "pt-BR": "Evidência da definição institucional, não medição de adoção ou resultados comerciais."
+    }
+  },
+  "ari": {
+    "date": "2026-10-12",
+    "source": "Agent Runtime Integration",
+    "kind": "source-excerpt",
+    "excerpt": "### 6.1. Autoridade, snapshot e três decisões distintas\n\n| Decisão | Quem / evidência | O que autoriza |\n|---|---|---|\n| Aprovação institucional da autoridade | Fundador, conforme `PROJECT_RULES.md` e protocolo arquitetural | Tornar o documento fonte normativa dentro de sua responsabilidade |\n| Revisão humana do snapshot | Revisor identificado e autorizado para o escopo institucional | Atestar a consistência das evidências exatas consultadas, sem promover propostas a autoridades |\n| Aprovação do mandato | Responsável autorizado para a execução e seu escopo | Executar objetivo, permissões e limites de uma versão exata do mandato |\n\nNenhuma decisão substitui outra. Aprovar um mandato não declara autoridades consistentes. Revisar um snapshot não aprova um mandato, nem altera o status institucional de documentos. Um modelo pode auxiliar interpretação e síntese, mas não atesta consistência, aprova alto impacto ou amplia autorização.",
+    "image": "assets/folio/evidence/ari.png",
+    "alt": {
+      "en": "Authority and execution boundaries",
+      "pt-BR": "Fronteiras de autoridade e execução"
+    },
+    "proves": {
+      "en": "Separates institutional approval, snapshot review and mandate approval.",
+      "pt-BR": "Separa aprovação institucional, revisão de snapshot e aprovação de mandato."
+    },
+    "limits": {
+      "en": "An architectural requirement; consumers need separate implementation validation.",
+      "pt-BR": "Requisito arquitetural; consumidores precisam de validação própria da implementação."
+    }
+  },
+  "wes": {
+    "date": "2026-10-12",
+    "source": "Web Experience System",
+    "kind": "source-excerpt",
+    "excerpt": "## 7b. Composition patterns (Fatia C)\n\nVocabulário fechado de composição materializada pelo Generator (além de density/highlight/motion):\n\n| `compositionPattern` | Materialização |\n|---|---|\n| `stacked-default` | Seção empilhada (baseline) |\n| `banner-hero-split` | Hero split atmospheric |\n| `banner-carousel` | Carousel de banners (`bullet` ou path em `body`) |\n| `asymmetric-blocks` | Mosaic tipográfico de spans |\n| `narrative-chain` | Lead + cadeia de bullets |\n| `timeline-horizontal` | Nós + painel sob demanda |\n| `statement-orbit` | Declaração tipográfica |\n| `weighted-blocks` | Blocos com peso tipográfico |\n| `type-mosaic` | Mosaic interativo + painel resumo |\n| `manifesto-list` | Lista editorial |\n| `final-cta` | Fecho com slogan + CTA |\n| `shell-wide-editorial` | Shell largo no `<main>` (sempre ativo) |\n| `dual-surface-chapters` | `data-surface` ink/light por frame |",
+    "image": "assets/folio/evidence/wes.png",
+    "alt": {
+      "en": "Generated editorial experiences",
+      "pt-BR": "Experiências editoriais geradas"
+    },
+    "proves": {
+      "en": "Lists the deterministic compositions available to consumers, including this Folio.",
+      "pt-BR": "Lista composições determinísticas disponíveis aos consumidores, incluindo este Folio."
+    },
+    "limits": {
+      "en": "The composition contract does not certify the final consumer navigation or accessibility.",
+      "pt-BR": "O contrato de composição não certifica navegação ou acessibilidade final do consumidor."
+    }
+  },
+  "odysseus": {
+    "date": "2026-10-12",
+    "source": "Desktop host · selected implementation",
+    "kind": "source-excerpt",
+    "excerpt": "def reserve_loopback_socket() -> tuple[socket.socket, int]:\n    listener = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    try:\n        listener.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 0)\n        listener.bind((\"127.0.0.1\", 0))\n        listener.listen(128)\n        return listener, int(listener.getsockname()[1])\n    except Exception:\n        listener.close()\n        raise",
+    "image": "assets/folio/evidence/odysseus.png",
+    "alt": {
+      "en": "Desktop and governed engineering",
+      "pt-BR": "Desktop e engenharia governada"
+    },
+    "proves": {
+      "en": "Shows a local listener reserved by the Desktop Host, including cleanup on failure.",
+      "pt-BR": "Mostra um listener local reservado pelo Desktop Host e sua limpeza em caso de falha."
+    },
+    "limits": {
+      "en": "A code excerpt, not a screenshot of the running application or an operational test.",
+      "pt-BR": "Trecho de código, não screenshot da aplicação executando nem teste operacional."
+    }
+  },
+  "promotion": {
+    "date": "2026-10-12",
+    "source": "Controlled Promotion · selected implementation",
+    "kind": "source-excerpt",
+    "excerpt": "def seal_private_effects(private_root: Path, effects: list[dict[str, str]], *, binding: dict[str, Any]) -> dict[str, Any]:\n    \"\"\"Seal exactly two effects as one indivisible approval and validation unit.\"\"\"\n    from src.mobs_institutional_boot import _portable_path\n\n    if len(effects) != 2 or any(effect.get(\"effect\") not in {\"create\", \"write\"} for effect in effects):\n        raise PromotionError(\"Multi-file artifact requires exactly two create/write effects\")\n    ordered = sorted(effects, key=lambda effect: effect[\"path\"].casefold())\n    paths = [_portable_path(effect[\"path\"], \"promotion path\") for effect in ordered]\n    if len({path.casefold() for path in paths}) != 2:\n        raise PromotionError(\"Multi-file artifact has duplicate paths\")\n    target = _target_from_binding(binding)\n    _require_separate_runtime(target)\n    expected_inventory = binding.get(\"target_inventory_sha256\")\n    if not isinstance(expected_inventory, str):\n        raise PromotionError(\"Promotion target inventory binding is invalid\")\n    _verify_target_inventory(target, expected_inventory)\n    policy = _policy()\n    root = _store_root_for_target(target)\n    artifact_id = uuid.uuid4().hex\n    directory = root / artifact_id\n    directory.mkdir(mode=0o700)\n    manifest_effects = []\n    before = binding.get(\"private_before\") or {}\n    for index, (effect, relative) in enumerate(zip(ordered, paths)):\n        source = (private_root / relative).resolve()\n        if not source.is_relative_to(private_root.resolve()) or source.is_symlink() or not source.is_file():\n            raise PromotionError(\"Multi-file effect is not a confined regular file\")\n        preimage = before.get(relative)\n        if effect[\"effect\"] == \"create\" and (preimage is not None or (target / relative).exists()):\n            raise PromotionError(\"Create effect has a preimage\")\n        if effect[\"effect\"] == \"write\" and (not isinstance(preimage, str)\n                                             or not (target / relative).is_file()\n                                             or _file_digest(target / relative) != preimage):",
+    "image": "assets/folio/evidence/promotion.png",
+    "alt": {
+      "en": "Private work and controlled promotion",
+      "pt-BR": "Trabalho privado e promoção controlada"
+    },
+    "proves": {
+      "en": "Shows two-file delta sealing, target inventory checks and content preservation.",
+      "pt-BR": "Mostra selagem do delta de dois arquivos, verificação do inventário e preservação de conteúdo."
+    },
+    "limits": {
+      "en": "Only a selected part of the mechanism. It does not establish universal safety.",
+      "pt-BR": "Parte selecionada do mecanismo. Não demonstra segurança universal."
+    }
+  },
+  "map": {
+    "date": "2026-10-12",
+    "source": "Capability Map · audited limits",
+    "kind": "source-excerpt",
+    "excerpt": "| `execution` — Terminal/processos, ambiente e efeitos | D/O | Parcial; Windows Native; bloqueador ACL/AppContainer reportado | Runtime/TEB; fronteira | Isolamento, árvore, rede, paths; escape/efeitos incertos | Mapeada; saúde requer validação |\n| `validation` — Testes, lint, compile, build e debug | D/O | Parcial; pytest, py_compile, Ruff; profile v6 | Receitas/perfis; comandos | Tool disponível e TEB; execução indireta | Mapeada |\n| `promotion` — Delta selado e aplicação | E | Parcial; single-file e exatamente dois create/write | Runtime; Promotion | Mandato/OAP/hashes/preimage/drift; aplicação parcial | Mapeada |\n| `git-read` — Identidade/status/diff/log/show | D/O | Parcial; branch/HEAD/status tipados; demais ausentes | Tools/perfis; Git | Metadata/baseline/read paths; helpers e vazamento | Mapeada |\n| `git-closure` — Worktrees, branches, commit/push/PR/CI | D/O | Ausente como fluxo governado | Runtime/integração; engenharia | Git read, isolamento e autorização; publicação/perda | Mapeada |\n| `review` — Code review e segurança | D/O | Ausente como fluxo especializado governado | Specialist/tools; review | Delta/contexto/evidência; achados omitidos ou inventados | Mapeada |",
+    "image": "assets/folio/evidence/map.png",
+    "alt": {
+      "en": "Implemented scope and documented limits",
+      "pt-BR": "Escopo implementado e limites documentados"
+    },
+    "proves": {
+      "en": "Records partial execution, promotion and Git capabilities instead of claiming full parity.",
+      "pt-BR": "Registra capacidades parciais de execução, promoção e Git, sem alegar paridade integral."
+    },
+    "limits": {
+      "en": "A dated documentary audit; current operational behavior needs its own evidence.",
+      "pt-BR": "Auditoria documental datada; comportamento operacional atual exige evidência própria."
+    }
+  },
+  "sentinel": {
+    "date": "2026-10-12",
+    "source": "Godot project configuration",
+    "kind": "source-excerpt",
+    "excerpt": "[application]\n\nconfig/name=\"LastSentinel\"\nrun/main_scene=\"res://main_menu.tscn\"\nconfig/features=PackedStringArray(\"4.7\", \"Mobile\")\nconfig/icon=\"res://icon.svg\"\n\n[autoload]\n\nSaveManager=\"*res://save_manager.gd\"\nTutorialManager=\"*res://tutorial_manager.gd\"\nPhaseTransition=\"*res://phase_transition.gd\"\nTelemetryManager=\"*res://telemetry_manager.gd\"\n\n[display]\n\nwindow/size/viewport_width=360\nwindow/size/viewport_height=640\nwindow/stretch/mode=\"canvas_items\"\nwindow/stretch/aspect=\"expand\"\nwindow/handheld/orientation=1",
+    "image": "assets/folio/evidence/sentinel.png",
+    "alt": {
+      "en": "Godot project: gameplay and systems",
+      "pt-BR": "Projeto Godot: gameplay e sistemas"
+    },
+    "proves": {
+      "en": "Shows the project entry scene, autoloaded systems and portrait viewport.",
+      "pt-BR": "Mostra a cena inicial, sistemas autoload e viewport vertical do projeto."
+    },
+    "limits": {
+      "en": "Configuration evidence does not prove a shipped product or successful gameplay test.",
+      "pt-BR": "Configuração não comprova produto lançado nem teste de gameplay bem-sucedido."
+    }
+  },
+  "player": {
+    "date": "2026-10-12",
+    "source": "Player animation state logic",
+    "kind": "source-excerpt",
+    "excerpt": "func _play_animation(next_animation: String, force: bool = false) -> void:\n\tif animation_locked and not force:\n\t\treturn\n\tanimation_name = next_animation\n\tanimation_frame = 0\n\tanimation_elapsed = 0.0\n\tmatch next_animation:\n\t\t\"walk\":\n\t\t\tanimation_row = 1\n\t\t\tanimation_last_frame = 3\n\t\t\tanimation_frame_time = 0.118\n\t\t\tanimation_locked = false\n\t\t\"shoot\":\n\t\t\tanimation_row = 2\n\t\t\tanimation_last_frame = 3\n\t\t\tanimation_frame_time = 0.1\n\t\t\tanimation_locked = true\n\t\t\"hurt\":\n\t\t\tanimation_row = 3\n\t\t\tanimation_last_frame = 1\n\t\t\tanimation_frame_time = 0.115\n\t\t\tanimation_locked = true\n\t\t\"death\":\n\t\t\tanimation_row = 3\n\t\t\tanimation_last_frame = 3\n\t\t\tanimation_frame_time = 0.18\n\t\t\tanimation_locked = true\n\t\t_:\n\t\t\tanimation_row = 0\n\t\t\tanimation_last_frame = 3\n\t\t\tanimation_frame_time = 0.22\n\t\t\tanimation_locked = false\n\t_update_sprite_frame()",
+    "image": "assets/folio/evidence/player.png",
+    "alt": {
+      "en": "Animation states and gameplay integration",
+      "pt-BR": "Estados de animação e integração com gameplay"
+    },
+    "proves": {
+      "en": "Shows walk, shoot, hurt, death and idle timing in the inspected player implementation.",
+      "pt-BR": "Mostra timing de walk, shoot, hurt, death e idle na implementação examinada."
+    },
+    "limits": {
+      "en": "State logic is observable; animation quality still requires in-game visual assessment.",
+      "pt-BR": "A lógica é observável; qualidade da animação ainda exige avaliação visual em jogo."
+    }
+  },
+  "terrain": {
+    "date": "2026-10-12",
+    "source": "The Last Sentinel · Toxic City",
+    "kind": "project-asset",
+    "image": "assets/folio/toxic-city.png",
+    "alt": "Toxic City arena: industrial pixel-art terrain with a circular central area and green toxic channels.",
+    "proves": {
+      "en": "Real arena asset from the verified project snapshot.",
+      "pt-BR": "Asset real da arena do snapshot verificado do projeto."
+    },
+    "limits": {
+      "en": "A static asset, not gameplay footage or proof of animation quality.",
+      "pt-BR": "Asset estático, não captura de gameplay nem prova de qualidade de animação."
+    }
+  }
+}

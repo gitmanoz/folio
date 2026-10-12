@@ -1,0 +1,187 @@
+{
+  "specVersion": "1.0.0",
+  "experienceId": "folio-home-pt-BR",
+  "title": "Lucas Neukirchen — Folio",
+  "status": "approved",
+  "language": "pt-BR",
+  "experienceTier": "L-B",
+  "mediumTargets": [
+    "web-experience"
+  ],
+  "narrativeRef": {
+    "narrativeId": "folio-home",
+    "narrativeSpecVersion": "1.0.0"
+  },
+  "frames": [
+    {
+      "id": "f-hero",
+      "order": 1,
+      "purpose": "Conhecimento → sistemas → produtos",
+      "chapterId": "f-hero",
+      "frameIntent": "open-identity",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "banner-hero-split",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Lucas Neukirchen",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "subtitle",
+          "content": "AI Systems Architect · Fundador do MOBS"
+        },
+        {
+          "role": "body",
+          "content": "Transformo conhecimento acumulado em capacidades de engenharia reutilizáveis. Meu trabalho conecta qualidade de software, sistemas de IA e engenharia de produto — da arquitetura institucional à implementação concreta.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-approach",
+      "order": 2,
+      "purpose": "Um método visível no trabalho",
+      "chapterId": "f-approach",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "manifesto-list",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Um método visível no trabalho",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Compreender antes de automatizar — definir problema, responsabilidades e fronteiras. Tornar decisões inspecionáveis — preservar fontes, versões e evidências. Construir para reutilizar — separar escolhas de projeto das capacidades compartilhadas.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Compreender antes de automatizar — definir problema, responsabilidades e fronteiras.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Tornar decisões inspecionáveis — preservar fontes, versões e evidências.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Construir para reutilizar — separar escolhas de projeto das capacidades compartilhadas.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-trajectory",
+      "order": 3,
+      "purpose": "Experiências que formaram a abordagem",
+      "chapterId": "f-trajectory",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Experiências que formaram a abordagem",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Ensino e sistemas de aprendizagem desenvolveram clareza. Desenvolvimento de software e garantia de qualidade acrescentaram disciplina de engenharia. IA conversacional e operações de produto conectaram essa experiência a sistemas de conhecimento e automação.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Wizard / T-Systems / VAD — ensino, treinamento e sistemas de aprendizagem.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Casa96 / IBM — desenvolvimento de jogos e qualidade de software.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "ProTrade / Sitel Group — operações de conteúdo e análise conversacional.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "MOBS — capacidades de engenharia reutilizáveis a partir de conhecimento acumulado.",
+          "sourceFactIds": [
+            "profile"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorities": [
+    {
+      "path": "project/automation/future/WEB_EXPERIENCE_SYSTEM.md"
+    },
+    {
+      "path": "docs/mobs/models/VISUAL_LANGUAGE_MODEL.md"
+    }
+  ],
+  "provenance": {
+    "generator": "llm-assisted",
+    "llm": {
+      "provider": "OpenAI",
+      "model": "Codex"
+    },
+    "sourceNarrative": {
+      "narrativeId": "folio-home",
+      "status": "approved",
+      "provenance": {
+        "generator": "llm-assisted",
+        "notes": "Founder execution mandate: first hybrid Folio slice; local review only, no publication."
+      }
+    }
+  },
+  "approval": {
+    "approvedBy": "founder execution mandate",
+    "notes": "Authorized first-slice materialization for local review. This flag is required by WES; it does not assert separate final visual approval or publication approval."
+  }
+}

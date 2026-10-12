@@ -1,0 +1,198 @@
+{
+  "specVersion": "1.0.0",
+  "experienceId": "folio-last-sentinel-pt-BR",
+  "title": "The Last Sentinel — Lucas Neukirchen",
+  "status": "approved",
+  "language": "pt-BR",
+  "experienceTier": "L-B",
+  "mediumTargets": [
+    "web-experience"
+  ],
+  "narrativeRef": {
+    "narrativeId": "folio-last-sentinel",
+    "narrativeSpecVersion": "1.0.0"
+  },
+  "frames": [
+    {
+      "id": "f-hero",
+      "order": 1,
+      "purpose": "Engenharia de jogos e sistemas",
+      "chapterId": "f-hero",
+      "frameIntent": "open-identity",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "banner-hero-split",
+      "slots": [
+        {
+          "role": "title",
+          "content": "The Last Sentinel",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        },
+        {
+          "role": "subtitle",
+          "content": "Gameplay, animação e atmosfera no mesmo projeto"
+        },
+        {
+          "role": "body",
+          "content": "The Last Sentinel reúne cenas Godot, GDScript, sistemas de gameplay, animação de sprites e efeitos ambientais. Toxic City é um ambiente real do projeto, apresentado aqui como asset estático de origem verificável.",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-0",
+      "order": 2,
+      "purpose": "Animação ligada ao gameplay",
+      "chapterId": "f-section-0",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Animação ligada ao gameplay",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "O código do player examinado inclui idle, walk, shoot, hurt e death, timing de reprodução e reações. Qualidade depende de poses legíveis, peso, timing e eventos de gameplay — não apenas de quantidade de frames.",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-1",
+      "order": 3,
+      "purpose": "Toxic City",
+      "chapterId": "f-section-1",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Toxic City",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "O projeto contém arena industrial, props tóxicos, vents e névoa. A arena exibida foi copiada do baseline remoto fixado com conteúdo correspondente; personagens HD e implementações de névoa locais mais recentes ficam excluídos.",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-2",
+      "order": 4,
+      "purpose": "Um snapshot verificável",
+      "chapterId": "f-section-2",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Um snapshot verificável",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Este case descreve um snapshot verificado do projeto. Um workspace local separado possui scripts e assets divergentes e não é tratado como equivalente.",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-3",
+      "order": 5,
+      "purpose": "Estado e limites",
+      "chapterId": "f-section-3",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Estado e limites",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Existem presets Windows e Android. Export web ou fatia jogável para o portfólio não foram validados e não estão incluídos. Não são alegados lançamento, receita, jogadores ou desempenho comercial.",
+          "sourceFactIds": [
+            "sentinel"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorities": [
+    {
+      "path": "project/automation/future/WEB_EXPERIENCE_SYSTEM.md"
+    },
+    {
+      "path": "docs/mobs/models/VISUAL_LANGUAGE_MODEL.md"
+    }
+  ],
+  "provenance": {
+    "generator": "llm-assisted",
+    "llm": {
+      "provider": "OpenAI",
+      "model": "Codex"
+    },
+    "sourceNarrative": {
+      "narrativeId": "folio-last-sentinel",
+      "status": "approved",
+      "provenance": {
+        "generator": "llm-assisted",
+        "notes": "Founder execution mandate: first hybrid Folio slice; local review only, no publication."
+      }
+    }
+  },
+  "approval": {
+    "approvedBy": "founder execution mandate",
+    "notes": "Authorized first-slice materialization for local review. This flag is required by WES; it does not assert separate final visual approval or publication approval."
+  }
+}

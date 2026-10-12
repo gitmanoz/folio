@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Animation states and gameplay integration — Folio</title><link rel="stylesheet" href="../../assets/folio/style.css"><link rel="alternate" hreflang="pt-BR" href="../../pt-BR/evidence/player.html"></head><body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="../index.html">LN<span>Lucas Neukirchen</span></a><nav aria-label="Language" class="languages"><a href="../../pt-BR/evidence/player.html">PT</a><span aria-current="true">EN</span></nav></header><main id="main" class="evidence-page"><a href="../index.html#evidence">← Back to portfolio</a><p class="eyebrow">Evidence of the work</p><h1>Animation states and gameplay integration</h1><p class="evidence-meta">Captured source excerpt · 2026-10-12</p><section><h2>What this evidence demonstrates</h2><p>Shows walk, shoot, hurt, death and idle timing in the inspected player implementation.</p></section><figure><a href="../../assets/folio/evidence/player.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size capture"><img src="../../assets/folio/evidence/player.png" alt="Animation states and gameplay integration" loading="lazy"></a><figcaption>Player animation state logic · Selected material. Full origin is retained in the private audit record.</figcaption></figure><details class="transcription"><summary>Read accessible verbatim transcript</summary><pre>func _play_animation(next_animation: String, force: bool = false) -&gt; void:
+	if animation_locked and not force:
+		return
+	animation_name = next_animation
+	animation_frame = 0
+	animation_elapsed = 0.0
+	match next_animation:
+		&quot;walk&quot;:
+			animation_row = 1
+			animation_last_frame = 3
+			animation_frame_time = 0.118
+			animation_locked = false
+		&quot;shoot&quot;:
+			animation_row = 2
+			animation_last_frame = 3
+			animation_frame_time = 0.1
+			animation_locked = true
+		&quot;hurt&quot;:
+			animation_row = 3
+			animation_last_frame = 1
+			animation_frame_time = 0.115
+			animation_locked = true
+		&quot;death&quot;:
+			animation_row = 3
+			animation_last_frame = 3
+			animation_frame_time = 0.18
+			animation_locked = true
+		_:
+			animation_row = 0
+			animation_last_frame = 3
+			animation_frame_time = 0.22
+			animation_locked = false
+	_update_sprite_frame()</pre></details><section class="evidence-limits"><h2>Context and limits</h2><p>State logic is observable; animation quality still requires in-game visual assessment.</p><p>The image captures a locally rendered literal excerpt from the verified file. It is not a GitHub UI screenshot or a running-application screenshot. The excerpt retains its original language.</p></section><p><button type="button" class="evidence-back" data-history-back>← Back to the claim</button></p></main><script src="../../assets/folio/site.js" defer></script></body></html>

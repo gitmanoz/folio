@@ -1,0 +1,280 @@
+{
+  "files": [
+    {
+      "preserved": "releases/pre-hybrid-09d3263/diagnostics/validate-en.json",
+      "original": "diagnostics/validate-en.json",
+      "sha256": "a9e6f36b1c6df7bc6fe3d8fa09bafd575e8b5d975d94725f939c5aba9f80da4c"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/diagnostics/validate-pt-BR.json",
+      "original": "diagnostics/validate-pt-BR.json",
+      "sha256": "fa61576515a2d68c883c0a2f464a5a4ec840be45ccf2cc008ddc692372243c5e"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/en/index.html",
+      "original": "en/index.html",
+      "sha256": "2049055593c35ac9b7151bdaa2195b3916366e4da606c3fc6a0a09425672e771"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/generate-en-job.json",
+      "original": "generate-en-job.json",
+      "sha256": "4aa3d30276dc9cc3e89a6eed8b351d713786742c849877aaefa624a802e265ed"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/generate-pt-job.json",
+      "original": "generate-pt-job.json",
+      "sha256": "4b8c74e5cbe1b6eaa223db1ed6c3f234ac6272925b609dcaf46db94248abdc2e"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/index.html",
+      "original": "index.html",
+      "sha256": "13a62ce5f09c39ed381efeb7cd69c9223ba1c31b38dba0aa92330f0c70a4f5ed"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/provenance-manifest.json",
+      "original": "provenance-manifest.json",
+      "sha256": "9444c92e4595e3fddf9b60ba984c37ffdffc7cafa66ed0f41a9c2a9f3177bcb3"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/pt-BR/index.html",
+      "original": "pt-BR/index.html",
+      "sha256": "65728d5435a31e59606eb6e1950319a8509bc1e85897d7fc4bcb2f053cacd1d6"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/pure/en/index.html",
+      "original": "pure/en/index.html",
+      "sha256": "3c774192315a4016e3811ae8c7e35d412a752db7a6d204a7cc59be6d1b960716"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/pure/pt-BR/index.html",
+      "original": "pure/pt-BR/index.html",
+      "sha256": "1e80d6e7bd5d94188a944e50958a39d3ec5b8b295d4f4075d1f9faef79b4f455"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/RELEASE.md",
+      "original": "releases/versao-final-v1.1/RELEASE.md",
+      "sha256": "d1d3dd6dab22844c0264c052b70c39882b6baa33c940cb965dfdb596d14f563d"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/diagnostics/validate-en.json",
+      "original": "releases/versao-final-v1.1/diagnostics/validate-en.json",
+      "sha256": "478fea34ee70d9ca6d65599e9e7579ade7c2451d3495594254c36f30ba9c8553"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/diagnostics/validate-pt-BR.json",
+      "original": "releases/versao-final-v1.1/diagnostics/validate-pt-BR.json",
+      "sha256": "37a1ceb1c07f553483323263be01236c6faf1ac77425138583facd3a5432ad61"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/en/index.html",
+      "original": "releases/versao-final-v1.1/en/index.html",
+      "sha256": "ff0799d118f1428bd67d15708d0a395fcaf009c5cc0bfb830fa53be92a679aff"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/index.html",
+      "original": "releases/versao-final-v1.1/index.html",
+      "sha256": "13a62ce5f09c39ed381efeb7cd69c9223ba1c31b38dba0aa92330f0c70a4f5ed"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/pt-BR/index.html",
+      "original": "releases/versao-final-v1.1/pt-BR/index.html",
+      "sha256": "a5b50b8d596c4bd8f30c70fd72f9160134deb19a955d4a73f595db23fc42af6a"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/pure/en/index.html",
+      "original": "releases/versao-final-v1.1/pure/en/index.html",
+      "sha256": "5274b9081179c3df5a8179f189d04dcbc8918602e7c3673174d4113152593cc4"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/pure/pt-BR/index.html",
+      "original": "releases/versao-final-v1.1/pure/pt-BR/index.html",
+      "sha256": "e97a9f18ca361eff4a086606facdf38349e6944ed45a5e8accc32eebf6944e9c"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/ri/postprocess-report.json",
+      "original": "releases/versao-final-v1.1/ri/postprocess-report.json",
+      "sha256": "d186b127f0e81c6b8450729e30e597eb69eb4fa1d4c46153a1cd78a67d8c2f91"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/ri/ri-chrome.css",
+      "original": "releases/versao-final-v1.1/ri/ri-chrome.css",
+      "sha256": "32beebac11941cd870f3f23c3481cd4a9be9dcb0652aabdba08179d9b29d5c43"
+    },
+    {
+      "preserved": "releases/versao-final-v1.1/ri/ri-chrome.js",
+      "original": "releases/versao-final-v1.1/ri/ri-chrome.js",
+      "sha256": "a4c037a2f6a16c0f6634bf1f6ffb5a92a1a6ba657bfaf843ec56eddee42cc7a5"
+    },
+    {
+      "preserved": "releases/versao-final-v1/RELEASE.md",
+      "original": "releases/versao-final-v1/RELEASE.md",
+      "sha256": "433eb3072ddad8f2948a9842ffe8e6058e8a7cce7529e800a797221eb7544329"
+    },
+    {
+      "preserved": "releases/versao-final-v1/diagnostics/validate-en.json",
+      "original": "releases/versao-final-v1/diagnostics/validate-en.json",
+      "sha256": "5e46a8820888185e201fab171cc62a038a6964ad5611773c7de4d49221f703f2"
+    },
+    {
+      "preserved": "releases/versao-final-v1/diagnostics/validate-pt-BR.json",
+      "original": "releases/versao-final-v1/diagnostics/validate-pt-BR.json",
+      "sha256": "d015f89601cde85101fc51024cd3b11e678e4e72218a077232cc725dede409c8"
+    },
+    {
+      "preserved": "releases/versao-final-v1/en/index.html",
+      "original": "releases/versao-final-v1/en/index.html",
+      "sha256": "9c494d3e375153e002f1615b0fbf1157547aa856f1c1062fd7d5a18c8d071fde"
+    },
+    {
+      "preserved": "releases/versao-final-v1/index.html",
+      "original": "releases/versao-final-v1/index.html",
+      "sha256": "13a62ce5f09c39ed381efeb7cd69c9223ba1c31b38dba0aa92330f0c70a4f5ed"
+    },
+    {
+      "preserved": "releases/versao-final-v1/pt-BR/index.html",
+      "original": "releases/versao-final-v1/pt-BR/index.html",
+      "sha256": "b3bdb9900fd32be0179156f380ac80ddf4d9433d847648916187e6e2d3bc367c"
+    },
+    {
+      "preserved": "releases/versao-final-v1/pure/en/index.html",
+      "original": "releases/versao-final-v1/pure/en/index.html",
+      "sha256": "748abf7de89fecd12828e13161a4c497a3a635eb6a19a52f0e2787abd15f8bd2"
+    },
+    {
+      "preserved": "releases/versao-final-v1/pure/pt-BR/index.html",
+      "original": "releases/versao-final-v1/pure/pt-BR/index.html",
+      "sha256": "dfe60c0153b7649e37b3c42496187809aacaea664aeef95ff51c532653e7b678"
+    },
+    {
+      "preserved": "releases/versao-final-v1/ri/postprocess-report.json",
+      "original": "releases/versao-final-v1/ri/postprocess-report.json",
+      "sha256": "39d8ad8b0a9c9554619195f133f5a9bf6411805701c5b20a3f08404bcc85bb98"
+    },
+    {
+      "preserved": "releases/versao-final-v1/ri/ri-chrome.css",
+      "original": "releases/versao-final-v1/ri/ri-chrome.css",
+      "sha256": "32beebac11941cd870f3f23c3481cd4a9be9dcb0652aabdba08179d9b29d5c43"
+    },
+    {
+      "preserved": "releases/versao-final-v1/ri/ri-chrome.js",
+      "original": "releases/versao-final-v1/ri/ri-chrome.js",
+      "sha256": "a4c037a2f6a16c0f6634bf1f6ffb5a92a1a6ba657bfaf843ec56eddee42cc7a5"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/capture-screens.mjs",
+      "original": "ri/capture-screens.mjs",
+      "sha256": "515ba7a9f1925cb2e7be42da08672859fe40997e9a9d810934ab4338d856d241"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/check-hero-dom.mjs",
+      "original": "ri/check-hero-dom.mjs",
+      "sha256": "96bd13d76d9ccf9d89d217f346bcc328d6debd649d8cbc263c9aeec43e9cad31"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/postprocess-report.json",
+      "original": "ri/postprocess-report.json",
+      "sha256": "f5d0036919f19230e1acc654f54033eb90a09e865d20de51245fb5fb95d62cdf"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/postprocess.mjs",
+      "original": "ri/postprocess.mjs",
+      "sha256": "6e769dc065a4725428a9176f25aa492d56fd793dcb5db75bfa664068a938ca61"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/ri-chrome.css",
+      "original": "ri/ri-chrome.css",
+      "sha256": "173769524f725a2d4784feffbf8e74d9933cc70f5dad4892211d525233aca5fa"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/ri-chrome.js",
+      "original": "ri/ri-chrome.js",
+      "sha256": "5a71054c5424b49c6254bf4e796147f9098bbbe73f6298870794318dacfe5d9d"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/ri.css",
+      "original": "ri/ri.css",
+      "sha256": "599ad446261062ed65bc84316129555bd7af2ad86c6b5adfc1ccc91225a89dc8"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/ri.js",
+      "original": "ri/ri.js",
+      "sha256": "784286b09b319bffb59392a8368d6cb49629be5dd89ce26baae3c20e7be99746"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/slice3-smoke.json",
+      "original": "ri/slice3-smoke.json",
+      "sha256": "5ddc2b9d04976e39db04985d688ff2ad5fe57230c3880f5f030e4a9120a873bd"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/slice3-smoke.mjs",
+      "original": "ri/slice3-smoke.mjs",
+      "sha256": "ab4eb7887b4d3160051f5c74f06126d114b9362834178aa9a2f9016daea7507e"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/ri/verify-prints.mjs",
+      "original": "ri/verify-prints.mjs",
+      "sha256": "9e93286f08be812d586591ebf980a4626cdee813a18189ea110b373e5097b177"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/validate-en-job.json",
+      "original": "validate-en-job.json",
+      "sha256": "5583d7911a29ea94d370e403e8333c34775298e1ca267b4d3430334939b92265"
+    },
+    {
+      "preserved": "releases/pre-hybrid-09d3263/validate-pt-job.json",
+      "original": "validate-pt-job.json",
+      "sha256": "c866fad754533d541304639c44c77cb2b474c1ddbe1bfa252ba67cf5fe4f9393"
+    },
+    {
+      "sha256": "d1d3dd6dab22844c0264c052b70c39882b6baa33c940cb965dfdb596d14f563d",
+      "original": "VERSAO-FINAL-V1.1.md",
+      "preserved": "releases/pre-hybrid-09d3263/VERSAO-FINAL-V1.1.md"
+    },
+    {
+      "sha256": "433eb3072ddad8f2948a9842ffe8e6058e8a7cce7529e800a797221eb7544329",
+      "original": "VERSAO-FINAL-V1.md",
+      "preserved": "releases/pre-hybrid-09d3263/VERSAO-FINAL-V1.md"
+    },
+    {
+      "sha256": "e08a2369165025e5c3bebc2e52a00145ac7143ea9920f54b5fdb924c8c814c46",
+      "original": "screenshots/journey-map-1440.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/journey-map-1440.png"
+    },
+    {
+      "sha256": "3510da5868575b7479402bd3285c9e49ba60ad966d68338af842c26d3520d6a3",
+      "original": "screenshots/timeline-open-1440.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/timeline-open-1440.png"
+    },
+    {
+      "sha256": "f5a48631882f75cc143841ed540419dd85d7ded329f10aed74ad4024f5254902",
+      "original": "screenshots/timeline-open-390.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/timeline-open-390.png"
+    },
+    {
+      "sha256": "eec32e8e30f7b6bbf4557ee2ab2904dc5184d5dc03bef28e427d452a6aa263c1",
+      "original": "screenshots/viewport-1024.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/viewport-1024.png"
+    },
+    {
+      "sha256": "cdedfb8afa5657316f2306b9a958a6e2ab8d08659e966b4a7267d5ea2fb719c5",
+      "original": "screenshots/viewport-1440.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/viewport-1440.png"
+    },
+    {
+      "sha256": "946bfba51b5293fbd4a4fe053a20a61cd2a1be12c62c00238a7aa66cc10ac13f",
+      "original": "screenshots/viewport-1920.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/viewport-1920.png"
+    },
+    {
+      "sha256": "b6c48fef3972e711436bb3ecf01a6f38ba88381272a1159befe60c9948879b05",
+      "original": "screenshots/viewport-390.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/viewport-390.png"
+    },
+    {
+      "sha256": "4d67884a7bf6d9094eb295be0a0cca9c5cc117aa6b63dd207d5b1dcad1af777e",
+      "original": "screenshots/viewport-768.png",
+      "preserved": "releases/pre-hybrid-09d3263/screenshots/viewport-768.png"
+    }
+  ],
+  "baseline": "09d326376bd3fd55ba0a58cd552a18319277464c"
+}

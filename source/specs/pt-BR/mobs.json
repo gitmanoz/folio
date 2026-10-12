@@ -1,0 +1,219 @@
+{
+  "specVersion": "1.0.0",
+  "experienceId": "folio-mobs-pt-BR",
+  "title": "MOBS — Lucas Neukirchen",
+  "status": "approved",
+  "language": "pt-BR",
+  "experienceTier": "L-B",
+  "mediumTargets": [
+    "web-experience"
+  ],
+  "narrativeRef": {
+    "narrativeId": "folio-mobs",
+    "narrativeSpecVersion": "1.0.0"
+  },
+  "frames": [
+    {
+      "id": "f-hero",
+      "order": 1,
+      "purpose": "Arquitetura institucional",
+      "chapterId": "f-hero",
+      "frameIntent": "open-identity",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "banner-hero-split",
+      "slots": [
+        {
+          "role": "title",
+          "content": "MOBS",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "subtitle",
+          "content": "Mission Orchestration & Build System"
+        },
+        {
+          "role": "body",
+          "content": "MOBS é a plataforma de engenharia do Ecossistema Missão. Separa conhecimento institucional, configuração de projeto e materialização determinística para que novos produtos reutilizem capacidades estabelecidas.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-0",
+      "order": 2,
+      "purpose": "O problema",
+      "chapterId": "f-section-0",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "O problema",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Duplicar infraestrutura por produto perde decisões e aumenta manutenção futura. A plataforma trata conhecimento documentado e contratos claros como entradas reutilizáveis.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-1",
+      "order": 3,
+      "purpose": "Arquitetura na prática",
+      "chapterId": "f-section-1",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Arquitetura na prática",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Contexto de projeto → MOBS Core → engines e generators → validators. Agent Runtime Integration acrescenta uma fronteira entre autoridade institucional e executores externos.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Autoridade — documentos possuem significado e responsabilidade.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Execução — consumidores implementam seu runtime sem redefinir a instituição.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "bullet",
+          "content": "Evidência — validação estrutural e provenance mantêm saídas inspecionáveis.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-2",
+      "order": 4,
+      "purpose": "O que existe",
+      "chapterId": "f-section-2",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "O que existe",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Resolução de contextos, documentação, exports derivados de assets, geração SEO/PWA, propostas de release/deploy, Narrative e Web Experience são representados por módulos da plataforma. Propostas não são deploy automático.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-section-3",
+      "order": 5,
+      "purpose": "Estado e limites",
+      "chapterId": "f-section-3",
+      "frameIntent": "explain-list",
+      "figurativeLayer": "schematic",
+      "visualPlanes": [
+        "text"
+      ],
+      "density": "balanced",
+      "highlight": "none",
+      "compositionPattern": "stacked-default",
+      "slots": [
+        {
+          "role": "title",
+          "content": "Estado e limites",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        },
+        {
+          "role": "body",
+          "content": "Agent Runtime Integration e perfis de autorização operacional são arquitetura aprovada. Conformidade de consumidores exige validação própria. Este case não alega engenharia autônoma irrestrita nem adoção comercial.",
+          "sourceFactIds": [
+            "mobs"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorities": [
+    {
+      "path": "project/automation/future/WEB_EXPERIENCE_SYSTEM.md"
+    },
+    {
+      "path": "docs/mobs/models/VISUAL_LANGUAGE_MODEL.md"
+    }
+  ],
+  "provenance": {
+    "generator": "llm-assisted",
+    "llm": {
+      "provider": "OpenAI",
+      "model": "Codex"
+    },
+    "sourceNarrative": {
+      "narrativeId": "folio-mobs",
+      "status": "approved",
+      "provenance": {
+        "generator": "llm-assisted",
+        "notes": "Founder execution mandate: first hybrid Folio slice; local review only, no publication."
+      }
+    }
+  },
+  "approval": {
+    "approvedBy": "founder execution mandate",
+    "notes": "Authorized first-slice materialization for local review. This flag is required by WES; it does not assert separate final visual approval or publication approval."
+  }
+}

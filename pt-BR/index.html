@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR" data-mobs-experience-id="lucas-professional-experience" data-mobs-policy-id="mobs-web-experience-policy" data-mobs-theme-id="mobs-web-experience-theme">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Lucas — Professional Experience</title>
-<style>
+<!doctype html><html lang="pt-BR" data-page="home" style="--folio-bg:#111714;--folio-panel:#19211c;--folio-text:#f2f1e9;--folio-muted:#b9c2b8;--folio-accent:#cfdf9e;--mobs-font:Arial, Helvetica, sans-serif"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lucas Neukirchen — Folio</title><meta name="description" content="Transformo conhecimento acumulado em capacidades de engenharia reutilizáveis. Meu trabalho conecta qualidade de software, sistemas de IA e engenharia de produto — da arquitetura institucional à implementação concreta."><link rel="alternate" hreflang="en" href="../en/index.html"><style>
 :root {
   --mobs-bg: #FFFFFF;
   --mobs-text: #1A1A1A;
@@ -693,20 +687,54 @@ main.mobs-shell-wide {
   .mobs-phil-cycle { width: min(100%, 22rem); }
 }
 @media (max-width: 767px) {
+  /* Mobile-only optical centering; desktop composition remains unchanged. */
+  .frame,
+  .frame > header,
+  .frame > .slot {
+    text-align: center;
+  }
+  .frame > .slot,
+  .frame > .slot p,
+  .frame > header,
+  .mobs-banner-hero-copy,
+  .mobs-how-banner-body,
+  .mobs-cap-panel {
+    margin-inline: auto;
+  }
+  .mobs-banner-hero-copy {
+    width: 100%;
+    text-align: center;
+  }
   .mobs-banner-hero .slot[data-role="title"] p {
     white-space: normal;
     font-size: clamp(1.85rem, 8.5vw, 2.45rem);
   }
-  .mobs-hero-nav { gap: 0.55rem 1rem; }
+  .mobs-hero-nav {
+    justify-content: center;
+    gap: 0.55rem 1rem;
+    margin-inline: auto;
+  }
   .mobs-hero-nav-link { font-size: 0.85rem; }
-  .mobs-hero-nav.mobs-nav-fixed { padding: 0.55rem 1rem; padding-right: 5.5rem; gap: 0.45rem 0.85rem; }
+  .mobs-hero-nav.mobs-nav-fixed {
+    justify-content: center;
+    padding: 0.55rem 5.5rem;
+    gap: 0.45rem 0.85rem;
+  }
   .mobs-how-banner { grid-template-columns: 1fr; }
+  .mobs-how-banner-copy { align-items: center; text-align: center; }
   .mobs-how-banner-visual { order: -1; min-height: 4.5rem; }
   .mobs-how-banner-mark { font-size: clamp(2.4rem, 16vw, 3.5rem); opacity: 0.85; }
   .mobs-how-banner-orbit { width: min(42%, 8.5rem); opacity: 0.7; }
+  .mobs-principle-mosaic { grid-template-columns: 1fr; }
   .mobs-profile-grid, .mobs-cap-mosaic { grid-template-columns: 1fr; }
   .mobs-profile-lead, .mobs-rpg-sheet { max-width: 28rem; }
   .mobs-profile-col-title { max-width: 28rem; }
+  .mobs-tl-node { justify-content: center; text-align: center; }
+  .mobs-tl-panel { margin-inline: auto; }
+  .mobs-cap {
+    justify-content: center;
+    text-align: center;
+  }
   .mobs-state-nodes { grid-template-columns: 1fr; gap: 1rem; }
   .mobs-state-axis { display: none; }
   .mobs-state-tick { display: none; }
@@ -731,725 +759,62 @@ main.mobs-shell-wide {
   .mobs-phil-ring-active { transition: none !important; }
 }
 
-</style>
-<!-- RI enhancement: chrome only (Generator owns layout) -->
-<link rel="stylesheet" href="../ri/ri-chrome.css"/>
-</head>
-<body data-mobs-dual-surface="true" class="ri-shell">
-<!-- RI enhancement: language switch -->
-<nav class="ri-lang" aria-label="Language">
-  <a href="../en/index.html" data-ri-lang="en">EN</a>
-  <span class="ri-sep" aria-hidden="true">|</span>
-  <a href="./index.html" data-ri-lang="pt-BR" aria-current="page">PT</a>
-</nav>
-<div class="ri-progress" aria-hidden="true"></div>
-
-<main data-mobs-generator="web-experience-generator" data-mobs-frame-count="10" data-mobs-compositions="catalog-full" data-ri-enhanced="true" class="ri-main mobs-shell-wide">
-<section class="frame density-sparse highlight-none" id="f-hero" data-frame-intent="open-identity" data-composition-pattern="banner-hero-split" data-surface="ink" data-figurative-layer="schematic" data-motion="none" data-order="1">
+</style><link rel="stylesheet" href="../assets/folio/style.css"></head><body><a class="skip" href="#main">Ir para o conteúdo</a><header class="site-header"><a class="brand" href="index.html">LN<span>Lucas Neukirchen</span></a><nav aria-label="Navegação principal"><a href="#work">Projetos selecionados</a><a href="#evidence">Evidências do trabalho</a><a href="#contact">Vamos conversar</a></nav><nav aria-label="Idioma" class="languages"><a href="../en/index.html" lang="en" hreflang="en">EN</a><span aria-current="true">PT</span></nav></header><main id="main" class="mobs-shell-wide" data-consumer="folio" data-wes-source="preview-pure/pt-BR/home.html">
+<section class="frame density-balanced highlight-none" id="f-hero" data-frame-intent="open-identity" data-composition-pattern="banner-hero-split" data-surface="ink" data-figurative-layer="schematic" data-motion="none" data-order="1">
 <div class="mobs-banner-hero" data-mobs-composition-chrome="banner-hero-split">
   <div class="mobs-banner-hero-glow" aria-hidden="true"></div>
   <div class="mobs-banner-hero-copy">
-    <header><h2>Identidade profissional</h2></header>
-    <div class="slot" data-role="title"><p>Build Once. Create Forever.</p></div>
-    <div class="slot" data-role="subtitle"><p>Engenharia do futuro da criação de produtos.</p></div>
-    <div class="slot" data-role="body"><p>AI Systems Architect focado em construir capacidades de engenharia reutilizáveis por meio de Inteligência Artificial, Automação e Arquitetura de Conhecimento.</p></div>
-    
+    <header><p class="eyebrow">Conhecimento → sistemas → produtos</p></header>
+    <div class="slot" data-role="title"><h1>Lucas Neukirchen</h1></div>
+    <div class="slot" data-role="subtitle"><p>AI Systems Architect · Fundador do MOBS</p></div>
+    <div class="slot" data-role="body"><p><a class="claim-link" href="evidence/profile.html">Transformo conhecimento acumulado em capacidades de engenharia reutilizáveis. Meu trabalho conecta qualidade de software, sistemas de IA e engenharia de produto — da arquitetura institucional à implementação concreta.</a></p></div>
+
   </div>
-  <div class="mobs-hero-nav-shell">
-  <div class="mobs-nav-sentinel" aria-hidden="true"></div>
-  <nav class="mobs-hero-nav" data-mobs-sticky-nav="true" aria-label="Sections">
-  <a class="mobs-hero-nav-link" href="#f-philosophy">Filosofia</a>
-  <a class="mobs-hero-nav-link" href="#f-profile">Perfil</a>
-  <a class="mobs-hero-nav-link" href="#f-timeline">Linha do tempo</a>
-  <a class="mobs-hero-nav-link" href="#f-mobs-case">Case</a>
-  <a class="mobs-hero-nav-link" href="#f-mobs-state">MOBS</a>
-  <a class="mobs-hero-nav-link" href="#f-how">Como funciona</a>
-  <a class="mobs-hero-nav-link" href="#f-caps">Capacidades</a>
-  <a class="mobs-hero-nav-link" href="#f-principles">Princípios</a>
-  <a class="mobs-hero-nav-link" href="#f-connect">Contato</a>
-  </nav>
-</div>
+
 </div>
 </section>
-<section class="frame density-balanced highlight-primary" id="f-philosophy" data-frame-intent="state-concept" data-composition-pattern="asymmetric-blocks" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="2"><header class="ri-eyebrow"><h2>Princípios que orientam meu trabalho</h2></header>
-<div class="slot" data-role="title"><p>Filosofia Profissional</p></div>
-<div class="mobs-phil-sheet" data-mobs-phil-cycle="true" data-mobs-phil-count="6">
-  <div class="mobs-phil-cycle" role="tablist" aria-label="Filosofia Profissional">
-    <div class="mobs-phil-ring" aria-hidden="true">
-      <svg class="mobs-phil-ring-svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
-        <circle class="mobs-phil-ring-track" cx="50" cy="50" r="38" pathLength="100"/>
-        <circle class="mobs-phil-ring-active" cx="50" cy="50" r="38" pathLength="100"/>
-      </svg>
-    </div>
-    <div class="mobs-phil-hub" aria-live="polite">
-      <span class="mobs-phil-hub-mark">01</span>
-      <span class="mobs-phil-hub-label">Software deve</span>
-    </div>
-    <div class="mobs-phil-nodes"><button type="button" class="mobs-phil-node mobs-phil-active" data-mobs-phil="1" data-mobs-label="Software deve" style="--mobs-phil-angle:0deg" aria-label="Software deve" aria-expanded="true" aria-controls="mobs-phil-panel-f-philosophy">
-  <span class="mobs-phil-icon" aria-hidden="true">01</span>
-  <span class="mobs-phil-full" hidden>Software deve ficar mais simples conforme o conhecimento cresce.</span>
-</button>
-<button type="button" class="mobs-phil-node" data-mobs-phil="2" data-mobs-label="Conhecimento deve" style="--mobs-phil-angle:60deg" aria-label="Conhecimento deve" aria-expanded="false" aria-controls="mobs-phil-panel-f-philosophy">
-  <span class="mobs-phil-icon" aria-hidden="true">02</span>
-  <span class="mobs-phil-full" hidden>Conhecimento deve virar infraestrutura.</span>
-</button>
-<button type="button" class="mobs-phil-node" data-mobs-phil="3" data-mobs-label="Arquitetura deve" style="--mobs-phil-angle:120deg" aria-label="Arquitetura deve" aria-expanded="false" aria-controls="mobs-phil-panel-f-philosophy">
-  <span class="mobs-phil-icon" aria-hidden="true">03</span>
-  <span class="mobs-phil-full" hidden>Arquitetura deve reduzir complexidade futura.</span>
-</button>
-<button type="button" class="mobs-phil-node" data-mobs-phil="4" data-mobs-label="Automação nasce" style="--mobs-phil-angle:180deg" aria-label="Automação nasce" aria-expanded="false" aria-controls="mobs-phil-panel-f-philosophy">
-  <span class="mobs-phil-icon" aria-hidden="true">04</span>
-  <span class="mobs-phil-full" hidden>Automação nasce da compreensão.</span>
-</button>
-<button type="button" class="mobs-phil-node" data-mobs-phil="5" data-mobs-label="Documentação faz" style="--mobs-phil-angle:240deg" aria-label="Documentação faz" aria-expanded="false" aria-controls="mobs-phil-panel-f-philosophy">
-  <span class="mobs-phil-icon" aria-hidden="true">05</span>
-  <span class="mobs-phil-full" hidden>Documentação faz parte da engenharia.</span>
-</button>
-<button type="button" class="mobs-phil-node" data-mobs-phil="6" data-mobs-label="IA amplia" style="--mobs-phil-angle:300deg" aria-label="IA amplia" aria-expanded="false" aria-controls="mobs-phil-panel-f-philosophy">
-  <span class="mobs-phil-icon" aria-hidden="true">06</span>
-  <span class="mobs-phil-full" hidden>IA amplia pessoas; não substitui pensamento.</span>
-</button></div>
-  </div>
-  <div class="mobs-phil-panel mobs-panel-in" id="mobs-phil-panel-f-philosophy" role="tabpanel">
-    <p class="mobs-phil-panel-body">Software deve ficar mais simples conforme o conhecimento cresce.</p>
-  </div>
-</div>
-</section>
-<section class="frame density-balanced highlight-none" id="f-profile" data-frame-intent="explain-list" data-composition-pattern="narrative-chain" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="3">
-<div class="mobs-profile-grid">
-  <div class="mobs-profile-col mobs-profile-col-lead">
-    <div class="slot mobs-profile-col-title" data-role="title"><p>Evolução profissional causal</p></div>
-    <div class="mobs-profile-lead"><p>Ensinar exigiu clareza. Sistemas de aprendizagem expuseram lacunas de processo. Design instrucional tornou-se design de sistemas. Ofício de software encontrou disciplina de qualidade. IA conversacional uniu product operations. Automação e sistemas de IA tornaram inevitável o conhecimento como infraestrutura — e o MOBS seguiu.</p></div>
-  </div>
-  <div class="mobs-profile-col mobs-profile-col-sheet">
-    <div class="slot mobs-profile-col-title" data-role="title"><p>Perfil profissional</p></div>
-    <div class="mobs-rpg-sheet" aria-label="Traços">
-      <p class="mobs-rpg-kicker">Traços</p>
-      <div class="mobs-rpg-row" role="group" aria-label="Teaching: 8 of 8">
-  <span class="mobs-rpg-label">Teaching</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="Learning Systems: 7 of 8">
-  <span class="mobs-rpg-label">Learning Systems</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="Instructional Design: 6 of 8">
-  <span class="mobs-rpg-label">Instructional Design</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="Software: 7 of 8">
-  <span class="mobs-rpg-label">Software</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="QA: 6 of 8">
-  <span class="mobs-rpg-label">QA</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="Conversational AI: 7 of 8">
-  <span class="mobs-rpg-label">Conversational AI</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="Automation: 6 of 8">
-  <span class="mobs-rpg-label">Automation</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span><span class="mobs-pip" aria-hidden="true"></span></span>
-</div>
-<div class="mobs-rpg-row" role="group" aria-label="AI Systems: 8 of 8">
-  <span class="mobs-rpg-label">AI Systems</span>
-  <span class="mobs-rpg-pips"><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span><span class="mobs-pip mobs-pip-filled" aria-hidden="true"></span></span>
-</div>
-    </div>
-  </div>
-</div>
-</section>
-<section class="frame density-dense highlight-none" id="f-timeline" data-frame-intent="map-relations" data-composition-pattern="timeline-horizontal" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="4"><header class="ri-eyebrow"><h2>Etapas até o MOBS</h2></header>
-<div class="slot" data-role="title"><p>Linha do tempo profissional</p></div>
-<div class="mobs-timeline" data-mobs-timeline="true">
-  <div class="mobs-tl-track">
-    <div class="mobs-tl-line" aria-hidden="true"></div>
-    <div class="mobs-tl-nodes"><button type="button" class="mobs-tl-node" data-mobs-stage="1" aria-expanded="false" aria-controls="mobs-tl-f-timeline-1">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Ensino</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="2" aria-expanded="false" aria-controls="mobs-tl-f-timeline-2">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Sistemas de aprendizagem</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="3" aria-expanded="false" aria-controls="mobs-tl-f-timeline-3">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Design instrucional</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="4" aria-expanded="false" aria-controls="mobs-tl-f-timeline-4">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Desenvolvimento de software</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="5" aria-expanded="false" aria-controls="mobs-tl-f-timeline-5">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Garantia de qualidade</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="6" aria-expanded="false" aria-controls="mobs-tl-f-timeline-6">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">IA conversacional</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="7" aria-expanded="false" aria-controls="mobs-tl-f-timeline-7">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Automação</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="8" aria-expanded="false" aria-controls="mobs-tl-f-timeline-8">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">Sistemas de IA</span>
-</button>
-<button type="button" class="mobs-tl-node" data-mobs-stage="9" aria-expanded="false" aria-controls="mobs-tl-f-timeline-9">
-  <span class="mobs-tl-dot" aria-hidden="true"></span>
-  <span class="mobs-tl-label">MOBS</span>
-</button></div>
-  </div>
-  <div class="mobs-tl-panels"><div class="mobs-tl-panel" id="mobs-tl-f-timeline-1" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Ensino</p>
-  <p class="mobs-tl-panel-body">Clareza de explicação em escala humana.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-2" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Sistemas de aprendizagem</p>
-  <p class="mobs-tl-panel-body">Aprendizagem em escala expôs lacunas de processo e sistema.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-3" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Design instrucional</p>
-  <p class="mobs-tl-panel-body">Desenhar aprendizagem passou a ser desenhar sistemas.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-4" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Desenvolvimento de software</p>
-  <p class="mobs-tl-panel-body">Entregar produtos exigiu ofício de engenharia.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-5" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Garantia de qualidade</p>
-  <p class="mobs-tl-panel-body">Arquitetura entendida como controle de risco.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-6" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">IA conversacional</p>
-  <p class="mobs-tl-panel-body">IA uniu product operations por sistemas de diálogo.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-7" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Automação</p>
-  <p class="mobs-tl-panel-body">Automação de fluxo ligou conhecimento à entrega.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-8" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">Sistemas de IA</p>
-  <p class="mobs-tl-panel-body">Conhecimento tratado como infraestrutura de engenharia.</p>
-</div>
-<div class="mobs-tl-panel" id="mobs-tl-f-timeline-9" hidden>
-  <p class="mobs-tl-kicker">Etapas até o MOBS</p>
-  <p class="mobs-tl-panel-title">MOBS</p>
-  <p class="mobs-tl-panel-body">Capacidades de engenharia reutilizáveis a partir do conhecimento acumulado.</p>
-</div></div>
-</div>
-</section>
-<section class="frame density-sparse highlight-accent" id="f-mobs-case" data-frame-intent="emphasize-statement" data-composition-pattern="statement-orbit" data-surface="ink" data-figurative-layer="schematic" data-motion="none" data-order="5"><header class="ri-eyebrow"><h2>Prova da filosofia</h2></header>
-<div class="mobs-case-stage">
-  <div class="mobs-case-glow" aria-hidden="true"></div>
-  <svg class="mobs-orbit-field" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-    <g class="mobs-orbit-spin mobs-ring-a"><ellipse class="mobs-orbit-ellipse" cx="50" cy="50" rx="47" ry="34" /></g>
-    <g class="mobs-orbit-spin mobs-ring-b"><ellipse class="mobs-orbit-ellipse mobs-orbit-ellipse-soft" cx="50" cy="50" rx="38" ry="42" /></g>
-    <g class="mobs-orbit-spin mobs-ring-c"><ellipse class="mobs-orbit-ellipse mobs-orbit-ellipse-faint" cx="50" cy="50" rx="44" ry="28" /></g>
-    <g class="mobs-orbit-spin mobs-star-1" aria-hidden="true"><circle class="mobs-star" cx="50" cy="8" r="0.55" /></g><g class="mobs-orbit-spin mobs-star-2" aria-hidden="true"><circle class="mobs-star" cx="50" cy="14" r="0.42" /></g><g class="mobs-orbit-spin mobs-star-3" aria-hidden="true"><circle class="mobs-star" cx="50" cy="11" r="0.38" /></g><g class="mobs-orbit-spin mobs-star-4" aria-hidden="true"><circle class="mobs-star" cx="50" cy="18" r="0.48" /></g><g class="mobs-orbit-spin mobs-star-5" aria-hidden="true"><circle class="mobs-star" cx="50" cy="6" r="0.32" /></g>
-  </svg>
-  <div class="mobs-statement-orbit">
-    <div class="slot" data-role="title"><p>Case em destaque — MOBS</p></div>
-    <div class="slot" data-role="subtitle"><p>Missão Build Operating System</p></div>
-    <div class="slot" data-role="body"><p>O MOBS existe porque crescer por duplicação reconstrói a mesma infraestrutura a cada produto. A missão é transformar conhecimento arquitetural em infraestrutura reutilizável — Build Once. Create Forever.</p></div>
-  </div>
-</div>
-</section>
-<section class="frame density-balanced highlight-none" id="f-mobs-state" data-frame-intent="explain-list" data-composition-pattern="weighted-blocks" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="6">
-<div class="slot" data-role="title"><p>O que o MOBS é hoje</p></div>
-<div class="slot mobs-state-tagline" data-role="subtitle"><p>Engenharia do futuro da criação de produtos.</p></div>
-<div class="mobs-state-sheet" data-mobs-state-sheet="true">
-  <div class="mobs-state-path" role="tablist" aria-label="O que o MOBS é hoje">
-    <div class="mobs-state-axis" aria-hidden="true"></div>
-    <div class="mobs-state-nodes"><button type="button" class="mobs-state-node mobs-state-active" data-mobs-state="1" aria-expanded="true" aria-controls="mobs-state-panel-f-mobs-state">
-  <span class="mobs-state-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></span>
-  <span class="mobs-state-tick" aria-hidden="true"></span>
-  <span class="mobs-state-label">Operacional hoje</span>
-  <span class="mobs-state-full" hidden>Resolução de contextos, Geração de assets, Documentação, Validação, SEO, PWA, Propostas de release/deploy, AI Helpers, Narrative, Web Experience.</span>
-</button>
-<button type="button" class="mobs-state-node" data-mobs-state="2" aria-expanded="false" aria-controls="mobs-state-panel-f-mobs-state">
-  <span class="mobs-state-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10l4-3 4 3v10"/><path d="M8 20V12l4-3 4 3v8"/><path d="M12 20V13l4-3 4 3v7"/></svg></span>
-  <span class="mobs-state-tick" aria-hidden="true"></span>
-  <span class="mobs-state-label">Arquitetura aprovada</span>
-  <span class="mobs-state-full" hidden>Documentação da plataforma, Contratos, Visual Language e Brand da plataforma.</span>
-</button>
-<button type="button" class="mobs-state-node" data-mobs-state="3" aria-expanded="false" aria-controls="mobs-state-panel-f-mobs-state">
-  <span class="mobs-state-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 10-12h-7l1-8z"/></svg></span>
-  <span class="mobs-state-tick" aria-hidden="true"></span>
-  <span class="mobs-state-label">Visão (não é alegação de feature entregue)</span>
-  <span class="mobs-state-full" hidden>Conhecimento como infraestrutura compartilhada entre produtos — Build Once. Create Forever.</span>
-</button></div>
-  </div>
-  <div class="mobs-state-panel mobs-panel-in" id="mobs-state-panel-f-mobs-state" role="tabpanel">
-    <p class="mobs-state-panel-body">Resolução de contextos, Geração de assets, Documentação, Validação, SEO, PWA, Propostas de release/deploy, AI Helpers, Narrative, Web Experience.</p>
-  </div>
-</div>
-</section>
-<section class="frame density-dense highlight-none" id="f-how" data-frame-intent="map-relations" data-composition-pattern="banner-carousel" data-surface="ink" data-figurative-layer="schematic" data-motion="none" data-order="7"><header class="ri-eyebrow"><h2>Percurso de orquestração</h2></header>
-<div class="slot" data-role="title"><p>Como o MOBS funciona</p></div>
-<div class="mobs-how-stage" data-mobs-how-banners="true" aria-label="Percurso de orquestração">
-  <div class="mobs-how-viewport"><article class="mobs-how-banner mobs-banner-active" data-mobs-banner="1">
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 01</p>
-    <h3 class="mobs-how-banner-title">Projeto</h3>
-    <p class="mobs-how-banner-body">Ponto de entrada configurado do produto — contrato inicial para geração.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">01</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article>
-<article class="mobs-how-banner" data-mobs-banner="2" hidden>
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 02</p>
-    <h3 class="mobs-how-banner-title">Contexto</h3>
-    <p class="mobs-how-banner-body">Contexto de projeto e marca resolvido e consumido pelo Core.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">02</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article>
-<article class="mobs-how-banner" data-mobs-banner="3" hidden>
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 03</p>
-    <h3 class="mobs-how-banner-title">Core</h3>
-    <p class="mobs-how-banner-body">O MOBS Core orquestra engines sem inventar conteúdo.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">03</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article>
-<article class="mobs-how-banner" data-mobs-banner="4" hidden>
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 04</p>
-    <h3 class="mobs-how-banner-title">Engines</h3>
-    <p class="mobs-how-banner-body">Engines de domínio executam capacidades a partir de configuração.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">04</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article>
-<article class="mobs-how-banner" data-mobs-banner="5" hidden>
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 05</p>
-    <h3 class="mobs-how-banner-title">Generators</h3>
-    <p class="mobs-how-banner-body">Generators determinísticos materializam artefatos aprovados.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">05</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article>
-<article class="mobs-how-banner" data-mobs-banner="6" hidden>
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 06</p>
-    <h3 class="mobs-how-banner-title">Validators</h3>
-    <p class="mobs-how-banner-body">Validators aplicam pass/fail estrutural contra contratos.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">06</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article>
-<article class="mobs-how-banner" data-mobs-banner="7" hidden>
-  <div class="mobs-how-banner-copy">
-    <p class="mobs-how-banner-kicker">Percurso de orquestração · 07</p>
-    <h3 class="mobs-how-banner-title">Capacidades de engenharia reutilizáveis</h3>
-    <p class="mobs-how-banner-body">Saídas tornam-se capacidades reutilizáveis entre produtos.</p>
-  </div>
-  <div class="mobs-how-banner-visual" aria-hidden="true">
-    <span class="mobs-how-banner-mark">07</span>
-    <div class="mobs-how-banner-orbit"></div>
-  </div>
-</article></div>
-  <p class="mobs-how-live" aria-live="polite" aria-atomic="true"></p>
-  <div class="mobs-how-controls">
-    <button type="button" class="mobs-how-nav mobs-how-prev" aria-label="Previous">‹</button>
-    <div class="mobs-how-dots" role="tablist"><button type="button" class="mobs-how-dot mobs-how-dot-active" data-mobs-banner="1" data-mobs-icon="project" aria-label="Projeto" aria-current="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h16v11H4z"/><path d="M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></button><button type="button" class="mobs-how-dot" data-mobs-banner="2" data-mobs-icon="context" aria-label="Contexto" aria-current="false"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></svg></button><button type="button" class="mobs-how-dot" data-mobs-banner="3" data-mobs-icon="core" aria-label="Core" aria-current="false"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 4v10l-7 4-7-4V7z"/><circle cx="12" cy="12" r="2.5"/></svg></button><button type="button" class="mobs-how-dot" data-mobs-banner="4" data-mobs-icon="engines" aria-label="Engines" aria-current="false"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></button><button type="button" class="mobs-how-dot" data-mobs-banner="5" data-mobs-icon="generators" aria-label="Generators" aria-current="false"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 10-12h-7l1-8z"/></svg></button><button type="button" class="mobs-how-dot" data-mobs-banner="6" data-mobs-icon="validators" aria-label="Validators" aria-current="false"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg></button><button type="button" class="mobs-how-dot" data-mobs-banner="7" data-mobs-icon="capabilities" aria-label="Capacidades de engenharia reutilizáveis" aria-current="false"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10l4-3 4 3v10"/><path d="M8 20V12l4-3 4 3v8"/><path d="M12 20V13l4-3 4 3v7"/></svg></button></div>
-    <button type="button" class="mobs-how-nav mobs-how-next" aria-label="Next">›</button>
-  </div>
-</div>
-</section>
-<section class="frame density-balanced highlight-none" id="f-caps" data-frame-intent="explain-list" data-composition-pattern="type-mosaic" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="8"><header class="ri-eyebrow"><h2>Comprovado no repositório</h2></header>
-<div class="slot" data-role="title"><p>Capacidades operacionais</p></div>
-<div class="mobs-cap-mosaic" data-mobs-caps="true">
-  <div class="mobs-cap-col" data-mobs-col="0"><button type="button" class="mobs-cap" data-mobs-summary="Resolve contextos de projeto e marca que alimentam a automação." data-mobs-icon="context" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></svg></span>
-  <span class="mobs-cap-title">Resolução de contexto</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Estrutura e mantém documentação como saída de engenharia." data-mobs-icon="docs" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></span>
-  <span class="mobs-cap-title">Documentação</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Gera contratos de meta-tags SEO a partir de specs aprovadas." data-mobs-icon="seo" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-3.5-3.5"/></svg></span>
-  <span class="mobs-cap-title">SEO</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Propõe ações de release a partir da autoridade do repositório." data-mobs-icon="release" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M5 19h14"/></svg></span>
-  <span class="mobs-cap-title">Proposta de release</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Briefs de autoridade e fluxos de AI Helpers sobre docs oficiais." data-mobs-icon="helpers" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a4 4 0 0 1 4 4v1h1a3 3 0 0 1 0 6h-1v1a4 4 0 0 1-8 0v-1H7a3 3 0 0 1 0-6h1V7a4 4 0 0 1 4-4z"/></svg></span>
-  <span class="mobs-cap-title">Assistentes de IA</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Generate/validate de Web Experience para Specs aprovadas." data-mobs-icon="web" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg></span>
-  <span class="mobs-cap-title">Experiência Web</span>
-</button></div>
-  <div class="mobs-cap-col" data-mobs-col="1"><button type="button" class="mobs-cap" data-mobs-summary="Produz exports derivados de marca/assets a partir de configuração." data-mobs-icon="docs" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></span>
-  <span class="mobs-cap-title">Geração de assets</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Executa validação estrutural sobre contextos e artefatos." data-mobs-icon="validators" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg></span>
-  <span class="mobs-cap-title">Validação</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Gera contratos web-manifest / PWA a partir de specs aprovadas." data-mobs-icon="pwa" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 17h6"/></svg></span>
-  <span class="mobs-cap-title">PWA</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Propõe ações de deploy sem inventar ambientes." data-mobs-icon="deploy" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 16c2 2 4 3 8 3s6-1 8-3"/><path d="M12 4v12"/><path d="m8 10 4-4 4 4"/></svg></span>
-  <span class="mobs-cap-title">Proposta de deploy</span>
-</button>
-<button type="button" class="mobs-cap" data-mobs-summary="Planejamento narrativo e capacidades de apresentação." data-mobs-icon="narrative" aria-expanded="false">
-  <span class="mobs-cap-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13l-4-2-4 2-4-2-4 2V7a3 3 0 0 1 3-3z"/></svg></span>
-  <span class="mobs-cap-title">Narrativa</span>
-</button></div>
-  <div class="mobs-cap-panel" id="mobs-cap-panel-f-caps" hidden>
-    <p class="mobs-panel-kicker">Comprovado no repositório</p>
-    <p class="mobs-cap-panel-title"></p>
-    <p class="mobs-cap-panel-body"></p>
-  </div>
-</div>
-</section>
-<section class="frame density-sparse highlight-primary" id="f-principles" data-frame-intent="state-concept" data-composition-pattern="manifesto-list" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="9"><header class="ri-eyebrow"><h2>Compromissos permanentes de engenharia</h2></header>
-<div class="slot" data-role="title"><p>Princípios de engenharia</p></div>
+<section class="projects" id="work"><div class="section-head"><p class="eyebrow">Projetos selecionados</p><h2>Três projetos. Responsabilidades distintas. Uma abordagem de engenharia.</h2></div><a class="project-row project-mobs" href="cases/mobs.html"><span class="project-number">01</span><div><p class="eyebrow">Arquitetura institucional</p><h3>MOBS</h3><p>Conhecimento transformado em infraestrutura de engenharia reutilizável.</p><span class="state">Implementação de plataforma + arquitetura aprovada</span></div><span class="arrow" aria-hidden="true">↗</span></a><a class="project-row project-odysseus" href="cases/odysseus.html"><span class="project-number">02</span><div><p class="eyebrow">Runtime agente governado</p><h3>Odisseus</h3><p>Executor prático conectado ao MOBS, com fronteiras explícitas.</p><span class="state">Fatias implementadas · desenvolvimento contínuo</span></div><span class="arrow" aria-hidden="true">↗</span></a><a class="project-row project-last-sentinel" href="cases/last-sentinel.html"><span class="project-number">03</span><div><p class="eyebrow">Engenharia de jogos e sistemas</p><h3>The Last Sentinel</h3><p>Um jogo Godot como campo concreto de engenharia e integração visual.</p><span class="state">Jogo em desenvolvimento · evidência de repositório</span></div><span class="arrow" aria-hidden="true">↗</span></a></section><section class="frame density-balanced highlight-none" id="f-approach" data-frame-intent="explain-list" data-composition-pattern="manifesto-list" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="2">
+<header><p class="eyebrow">Um método visível no trabalho</p></header>
+<div class="slot" data-role="title"><h2>Um método visível no trabalho</h2></div>
 <div class="mobs-manifesto" data-mobs-manifesto="true">
-  <div class="mobs-manifesto-path" role="tablist" aria-label="Compromissos permanentes de engenharia">
+  <div class="mobs-manifesto-path" role="tablist" aria-label="Um método visível no trabalho">
     <div class="mobs-manifesto-axis" aria-hidden="true"></div>
-    <div class="mobs-manifesto-nodes"><button type="button" class="mobs-manifesto-node mobs-manifesto-active" data-mobs-principle="1" aria-expanded="true" aria-controls="mobs-manifesto-panel-f-principles">
-  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></span>
+    <div class="mobs-manifesto-nodes"><button type="button" class="mobs-manifesto-node mobs-manifesto-active" data-mobs-principle="1" aria-expanded="true" aria-controls="mobs-manifesto-panel-f-approach">
+  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2.5"/></svg></span>
   <span class="mobs-manifesto-tick" aria-hidden="true"></span>
-  <span class="mobs-manifesto-label">Configuração</span>
-  <span class="mobs-manifesto-full" hidden>Configuração acima de duplicação.</span>
+  <span class="mobs-manifesto-label">Compreender</span>
+  <span class="mobs-manifesto-full" hidden>Compreender antes de automatizar — definir problema, responsabilidades e fronteiras.</span>
 </button>
-<button type="button" class="mobs-manifesto-node" data-mobs-principle="2" aria-expanded="false" aria-controls="mobs-manifesto-panel-f-principles">
-  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10l4-3 4 3v10"/><path d="M8 20V12l4-3 4 3v8"/><path d="M12 20V13l4-3 4 3v7"/></svg></span>
+<button type="button" class="mobs-manifesto-node" data-mobs-principle="2" aria-expanded="false" aria-controls="mobs-manifesto-panel-f-approach">
+  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2.5"/></svg></span>
   <span class="mobs-manifesto-tick" aria-hidden="true"></span>
-  <span class="mobs-manifesto-label">Arquitetura</span>
-  <span class="mobs-manifesto-full" hidden>Arquitetura antes da automação.</span>
+  <span class="mobs-manifesto-label">Tornar decisões</span>
+  <span class="mobs-manifesto-full" hidden>Tornar decisões inspecionáveis — preservar fontes, versões e evidências.</span>
 </button>
-<button type="button" class="mobs-manifesto-node" data-mobs-principle="3" aria-expanded="false" aria-controls="mobs-manifesto-panel-f-principles">
-  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></span>
+<button type="button" class="mobs-manifesto-node" data-mobs-principle="3" aria-expanded="false" aria-controls="mobs-manifesto-panel-f-approach">
+  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2.5"/></svg></span>
   <span class="mobs-manifesto-tick" aria-hidden="true"></span>
-  <span class="mobs-manifesto-label">Documentação</span>
-  <span class="mobs-manifesto-full" hidden>Documentação antes da implementação.</span>
-</button>
-<button type="button" class="mobs-manifesto-node" data-mobs-principle="4" aria-expanded="false" aria-controls="mobs-manifesto-panel-f-principles">
-  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 4v10l-7 4-7-4V7z"/><circle cx="12" cy="12" r="2.5"/></svg></span>
-  <span class="mobs-manifesto-tick" aria-hidden="true"></span>
-  <span class="mobs-manifesto-label">Conhecimento como infraestrutura</span>
-  <span class="mobs-manifesto-full" hidden>Conhecimento como infraestrutura.</span>
-</button>
-<button type="button" class="mobs-manifesto-node" data-mobs-principle="5" aria-expanded="false" aria-controls="mobs-manifesto-panel-f-principles">
-  <span class="mobs-manifesto-icon" aria-hidden="true"><svg class="mobs-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6l-7-3z"/><path d="m9 12 2 2 4-4"/></svg></span>
-  <span class="mobs-manifesto-tick" aria-hidden="true"></span>
-  <span class="mobs-manifesto-label">Validação</span>
-  <span class="mobs-manifesto-full" hidden>Validação acima de pressupostos.</span>
+  <span class="mobs-manifesto-label">Construir para</span>
+  <span class="mobs-manifesto-full" hidden>Construir para reutilizar — separar escolhas de projeto das capacidades compartilhadas.</span>
 </button></div>
   </div>
-  <div class="mobs-manifesto-panel mobs-panel-in" id="mobs-manifesto-panel-f-principles" role="tabpanel">
-    <p class="mobs-manifesto-panel-kicker">Compromissos permanentes de engenharia</p>
-    <p class="mobs-manifesto-panel-body">Configuração acima de duplicação.</p>
+  <div class="mobs-manifesto-panel mobs-panel-in" id="mobs-manifesto-panel-f-approach" role="tabpanel">
+    <p class="mobs-manifesto-panel-kicker">Um método visível no trabalho</p>
+    <p class="mobs-manifesto-panel-body">Compreender antes de automatizar — definir problema, responsabilidades e fronteiras.</p>
   </div>
-  <p class="mobs-manifesto-closing">Build Once. Create Forever.</p>
+
 </div>
 </section>
-<section class="frame density-sparse highlight-none" id="f-connect" data-frame-intent="close-identity" data-composition-pattern="final-cta" data-surface="ink" data-figurative-layer="schematic" data-motion="none" data-order="10">
-<div class="mobs-connect-stack">
-  <header><h2>Canal oficial de contato</h2></header>
-  <p class="mobs-connect-slogan">Build Once. Create Forever.</p>
-  <div class="slot" data-role="title"><p>Vamos conversar</p></div>
-  <div class="slot" data-role="call-to-action">
-<a class="ri-linkedin" href="https://www.linkedin.com/in/lucas-neukirchen-b7987218b/" target="_blank" rel="noopener noreferrer">Conectar no LinkedIn</a>
-</div>
-  <div class="slot" data-role="body"><p>Built with MOBS</p></div>
-</div>
+<section class="frame density-balanced highlight-none" id="f-trajectory" data-frame-intent="explain-list" data-composition-pattern="stacked-default" data-surface="light" data-figurative-layer="schematic" data-motion="none" data-order="3">
+<header><p class="eyebrow">Experiências que formaram a abordagem</p></header>
+<div class="slot" data-role="title"><h2>Experiências que formaram a abordagem</h2></div>
+<div class="slot" data-role="body"><p><a class="claim-link" href="evidence/profile.html">Ensino e sistemas de aprendizagem desenvolveram clareza. Desenvolvimento de software e garantia de qualidade acrescentaram disciplina de engenharia. IA conversacional e operações de produto conectaram essa experiência a sistemas de conhecimento e automação.</a></p></div>
+<div class="slot" data-role="bullet"><p>Wizard / T-Systems / VAD — ensino, treinamento e sistemas de aprendizagem.</p></div>
+<div class="slot" data-role="bullet"><p>Casa96 / IBM — desenvolvimento de jogos e qualidade de software.</p></div>
+<div class="slot" data-role="bullet"><p>ProTrade / Sitel Group — operações de conteúdo e análise conversacional.</p></div>
+<div class="slot" data-role="bullet"><p>MOBS — capacidades de engenharia reutilizáveis a partir de conhecimento acumulado.</p></div>
 </section>
-</main>
-<script>(function(){(function(){
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if(reduced)return;
-  var ball=document.createElement("div");
-  ball.className="mobs-page-cursor";
-  ball.setAttribute("aria-hidden","true");
-  document.body.appendChild(ball);
-  var x=0,y=0,tx=0,ty=0,raf=0,active=false,touching=false;
-  function loop(){
-    x+=(tx-x)*0.18; y+=(ty-y)*0.18;
-    ball.style.left=x+"px"; ball.style.top=y+"px";
-    if(active)raf=window.requestAnimationFrame(loop);
-    else raf=0;
-  }
-  function showAt(px,py){
-    tx=px; ty=py; x=px; y=py;
-    active=true;
-    ball.classList.add("mobs-page-cursor-on");
-    if(!raf)raf=window.requestAnimationFrame(loop);
-  }
-  function hide(){
-    active=false;
-    touching=false;
-    ball.classList.remove("mobs-page-cursor-on");
-  }
-  document.addEventListener("pointerdown",function(e){
-    if(e.pointerType!=="touch")return;
-    touching=true;
-    showAt(e.clientX,e.clientY);
-  },{passive:true});
-  document.addEventListener("pointermove",function(e){
-    if(e.pointerType==="touch"){
-      if(!touching)return;
-      tx=e.clientX; ty=e.clientY;
-      if(!raf)raf=window.requestAnimationFrame(loop);
-      return;
-    }
-    if(e.pointerType&&e.pointerType!=="mouse")return;
-    tx=e.clientX; ty=e.clientY;
-    if(!active)showAt(tx,ty);
-    else if(!raf)raf=window.requestAnimationFrame(loop);
-  },{passive:true});
-  document.addEventListener("pointerup",function(e){
-    if(e.pointerType==="touch")hide();
-  });
-  document.addEventListener("pointercancel",function(e){
-    if(e.pointerType==="touch")hide();
-  });
-  document.addEventListener("pointerleave",function(e){
-    if(e.pointerType==="touch")return;
-    if(!touching)hide();
-  });
-})();
-(function(){
-  var nav=document.querySelector("[data-mobs-sticky-nav]");
-  if(!nav)return;
-  var shell=nav.closest(".mobs-hero-nav-shell")||nav.parentElement;
-  var sentinel=shell&&shell.querySelector(".mobs-nav-sentinel");
-  if(!sentinel){
-    sentinel=document.createElement("div");
-    sentinel.className="mobs-nav-sentinel";
-    sentinel.setAttribute("aria-hidden","true");
-    if(shell)shell.insertBefore(sentinel,nav);
-  }
-  var placeholder=null;
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  function navHeight(){return nav.offsetHeight||56;}
-  function pin(){
-    if(nav.classList.contains("mobs-nav-fixed"))return;
-    placeholder=document.createElement("div");
-    placeholder.className="mobs-nav-placeholder";
-    placeholder.style.height=navHeight()+"px";
-    if(shell)shell.insertBefore(placeholder,nav);
-    document.body.appendChild(nav);
-    nav.classList.add("mobs-nav-fixed");
-  }
-  function unpin(){
-    if(!nav.classList.contains("mobs-nav-fixed"))return;
-    nav.classList.remove("mobs-nav-fixed");
-    if(shell){
-      if(placeholder&&placeholder.parentNode)shell.insertBefore(nav,placeholder);
-      else shell.appendChild(nav);
-    }
-    if(placeholder&&placeholder.parentNode)placeholder.parentNode.removeChild(placeholder);
-    placeholder=null;
-  }
-  function onScroll(){
-    var top=sentinel.getBoundingClientRect().top;
-    if(top<=0)pin(); else unpin();
-  }
-  window.addEventListener("scroll",onScroll,{passive:true});
-  window.addEventListener("resize",onScroll);
-  onScroll();
-  Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]')).forEach(function(a){
-    a.addEventListener("click",function(e){
-      var href=a.getAttribute("href")||"";
-      var id=href.slice(1);
-      var el=id?document.getElementById(id):null;
-      if(!el)return;
-      e.preventDefault();
-      var offset=navHeight()+10;
-      var y=el.getBoundingClientRect().top+window.pageYOffset-offset;
-      window.scrollTo({top:Math.max(0,y),behavior:reduced?"auto":"smooth"});
-      if(history&&history.pushState)history.pushState(null,"","#"+id);
-    });
-  });
-})();
-document.querySelectorAll("[data-mobs-how-banners]").forEach(function(stage){
-  var banners=Array.prototype.slice.call(stage.querySelectorAll(".mobs-how-banner"));
-  var dots=Array.prototype.slice.call(stage.querySelectorAll(".mobs-how-dot"));
-  var prev=stage.querySelector(".mobs-how-prev");
-  var next=stage.querySelector(".mobs-how-next");
-  var live=stage.querySelector(".mobs-how-live");
-  var idx=0; var busy=false;
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var DURATION=reduced?0:700;
-  function syncDots(i){dots.forEach(function(dot,n){var on=n===i;dot.classList.toggle("mobs-how-dot-active",on);dot.setAttribute("aria-current",on?"true":"false");});}
-  function announce(i){
-    if(!live||!banners[i])return;
-    var title=banners[i].querySelector(".mobs-how-banner-title");
-    live.textContent=title?title.textContent.trim():("Station "+(i+1));
-  }
-  function clearMotion(el){el.classList.remove("mobs-how-from-right","mobs-how-from-left","mobs-how-exit-left","mobs-how-exit-right");}
-  function show(i,dir){
-    if(!banners.length||busy)return;
-    var target=((i%banners.length)+banners.length)%banners.length;
-    if(target===idx)return;
-    var from=banners[idx]; var to=banners[target];
-    var goRight=true;
-    if(typeof dir==="boolean")goRight=dir;
-    else if(typeof dir==="number")goRight=dir>=0;
-    else{
-      goRight=target>idx;
-      if(idx===banners.length-1&&target===0)goRight=true;
-      if(idx===0&&target===banners.length-1)goRight=false;
-    }
-    if(reduced){
-      from.classList.remove("mobs-banner-active");from.hidden=true;clearMotion(from);
-      clearMotion(to);to.hidden=false;to.classList.add("mobs-banner-active");
-      idx=target;syncDots(idx);announce(idx);return;
-    }
-    busy=true;
-    clearMotion(from);clearMotion(to);
-    to.hidden=false;
-    to.classList.add(goRight?"mobs-how-from-right":"mobs-how-from-left");
-    void to.offsetWidth;
-    from.classList.remove("mobs-banner-active");
-    from.classList.add(goRight?"mobs-how-exit-left":"mobs-how-exit-right");
-    to.classList.remove("mobs-how-from-right","mobs-how-from-left");
-    to.classList.add("mobs-banner-active");
-    syncDots(target);announce(target);
-    window.setTimeout(function(){
-      from.hidden=true;clearMotion(from);clearMotion(to);idx=target;busy=false;
-    },DURATION);
-  }
-  if(prev)prev.addEventListener("click",function(){show(idx-1,false);});
-  if(next)next.addEventListener("click",function(){show(idx+1,true);});
-  dots.forEach(function(dot){dot.addEventListener("click",function(){var n=parseInt(dot.getAttribute("data-mobs-banner"),10);if(!isNaN(n))show(n-1);});});
-  stage.addEventListener("keydown",function(e){
-    if(e.key==="ArrowRight"){e.preventDefault();show(idx+1,true);}
-    else if(e.key==="ArrowLeft"){e.preventDefault();show(idx-1,false);}
-    else if(e.key==="Home"){e.preventDefault();show(0,false);}
-    else if(e.key==="End"){e.preventDefault();show(banners.length-1,true);}
-  });
-  if(!stage.hasAttribute("tabindex"))stage.setAttribute("tabindex","0");
-  banners.forEach(function(slide,n){slide.hidden=n!==0;slide.classList.toggle("mobs-banner-active",n===0);clearMotion(slide);});
-  syncDots(0);announce(0);
-});
-document.querySelectorAll("[data-mobs-timeline]").forEach(function(tl){
-  var nodes=Array.prototype.slice.call(tl.querySelectorAll(".mobs-tl-node"));
-  var busy=false;
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var FADE=reduced?0:220;
-  function openPanel(btn,panel){
-    btn.setAttribute("aria-expanded","true");btn.classList.add("mobs-tl-active");
-    panel.hidden=false;void panel.offsetWidth;panel.classList.add("mobs-panel-in");
-  }
-  function closePanels(done){
-    var openNodes=nodes.filter(function(n){return n.getAttribute("aria-expanded")==="true";});
-    var panels=Array.prototype.slice.call(tl.querySelectorAll(".mobs-tl-panel"));
-    openNodes.forEach(function(n){n.setAttribute("aria-expanded","false");n.classList.remove("mobs-tl-active");});
-    panels.forEach(function(p){p.classList.remove("mobs-panel-in");});
-    window.setTimeout(function(){
-      panels.forEach(function(p){p.hidden=true;});
-      if(done)done();
-    },FADE);
-  }
-  nodes.forEach(function(btn){
-    btn.addEventListener("click",function(){
-      if(busy)return;
-      var id=btn.getAttribute("aria-controls");
-      var panel=id?tl.querySelector("#"+CSS.escape(id)):null;
-      if(!panel)return;
-      var open=btn.getAttribute("aria-expanded")==="true";
-      if(open){
-        busy=true;closePanels(function(){busy=false;});
-        return;
-      }
-      var anyOpen=nodes.some(function(n){return n.getAttribute("aria-expanded")==="true";});
-      if(anyOpen){
-        busy=true;
-        closePanels(function(){openPanel(btn,panel);busy=false;});
-        return;
-      }
-      openPanel(btn,panel);
-    });
-  });
-  if(nodes[0]){
-    var firstId=nodes[0].getAttribute("aria-controls");
-    var firstPanel=firstId?tl.querySelector("#"+CSS.escape(firstId)):null;
-    if(firstPanel)openPanel(nodes[0],firstPanel);
-  }
-});
-document.querySelectorAll("[data-mobs-caps]").forEach(function(mosaic){
-  var panel=mosaic.querySelector(".mobs-cap-panel");
-  if(!panel)return;
-  var title=panel.querySelector(".mobs-cap-panel-title");
-  var body=panel.querySelector(".mobs-cap-panel-body");
-  var busy=false;
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var FADE=reduced?0:220;
-  function fill(btn){
-    if(title)title.textContent=((btn.querySelector(".mobs-cap-title")||btn).textContent||"").trim();
-    if(body)body.textContent=btn.getAttribute("data-mobs-summary")||"";
-  }
-  function place(btn){
-    var col=btn.closest(".mobs-cap-col")||mosaic;
-    col.insertBefore(panel, btn.nextSibling);
-  }
-  function openPanel(btn){
-    place(btn);fill(btn);panel.hidden=false;void panel.offsetWidth;panel.classList.add("mobs-panel-in");
-    btn.setAttribute("aria-expanded","true");
-  }
-  function closePanel(done){
-    panel.classList.remove("mobs-panel-in");
-    window.setTimeout(function(){panel.hidden=true;if(done)done();},FADE);
-  }
-  Array.prototype.slice.call(mosaic.querySelectorAll(".mobs-cap")).forEach(function(btn){
-    btn.addEventListener("click",function(){
-      if(busy)return;
-      var was=btn.getAttribute("aria-expanded")==="true";
-      var openBtn=mosaic.querySelector('.mobs-cap[aria-expanded="true"]');
-      if(was){
-        busy=true;btn.setAttribute("aria-expanded","false");
-        closePanel(function(){busy=false;});
-        return;
-      }
-      if(openBtn&&openBtn!==btn){
-        busy=true;openBtn.setAttribute("aria-expanded","false");
-        closePanel(function(){openPanel(btn);busy=false;});
-        return;
-      }
-      openPanel(btn);
-    });
-  });
-});
-document.querySelectorAll("[data-mobs-manifesto]").forEach(function(root){
+<section class="evidence" id="evidence"><p class="eyebrow">Evidências do trabalho</p><h2>Da intenção à implementação.</h2><p>Registros selecionados de implementação e material visual, com estado atual e limitações explícitos.</p><details><summary>Ver resumo das evidências</summary><ul><li><a href="evidence/profile.html">Trajetória profissional documentada ↗</a></li><li><a href="evidence/mobs.html">Arquitetura institucional ↗</a></li><li><a href="evidence/odysseus.html">Desktop e engenharia governada ↗</a></li><li><a href="evidence/sentinel.html">Projeto Godot: gameplay e sistemas ↗</a></li></ul></details></section><noscript><section class="evidence"><h2>Um método visível no trabalho</h2><ul><li>Compreender antes de automatizar — definir problema, responsabilidades e fronteiras.</li><li>Tornar decisões inspecionáveis — preservar fontes, versões e evidências.</li><li>Construir para reutilizar — separar escolhas de projeto das capacidades compartilhadas.</li></ul></section></noscript></main><footer id="contact"><p class="eyebrow">Vamos conversar</p><h2>Vamos construir com intenção.</h2><p>Explore os projetos e suas evidências ou converse comigo pelo LinkedIn.</p><a class="contact-link" href="https://www.linkedin.com/in/lucas-neukirchen-b7987218b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><div class="footer-line"><span>Lucas Neukirchen · Folio</span><span>Construído com MOBS · consumidor independente</span></div></footer><script src="../assets/folio/site.js" defer></script><script>(function(){document.querySelectorAll("[data-mobs-manifesto]").forEach(function(root){
   var nodes=Array.prototype.slice.call(root.querySelectorAll(".mobs-manifesto-node"));
   var panel=root.querySelector(".mobs-manifesto-panel");
   var body=panel&&panel.querySelector(".mobs-manifesto-panel-body");
@@ -1478,133 +843,4 @@ document.querySelectorAll("[data-mobs-manifesto]").forEach(function(root){
       busy=true;activate(btn);
     });
   });
-});
-document.querySelectorAll("[data-mobs-state-sheet]").forEach(function(root){
-  var nodes=Array.prototype.slice.call(root.querySelectorAll(".mobs-state-node"));
-  var panel=root.querySelector(".mobs-state-panel");
-  var body=panel&&panel.querySelector(".mobs-state-panel-body");
-  var busy=false;
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var FADE=reduced?0:220;
-  function activate(btn){
-    var full=btn.querySelector(".mobs-state-full");
-    nodes.forEach(function(n){
-      n.classList.toggle("mobs-state-active",n===btn);
-      n.setAttribute("aria-expanded",n===btn?"true":"false");
-    });
-    if(!panel||!body||!full){busy=false;return;}
-    panel.classList.remove("mobs-panel-in");
-    window.setTimeout(function(){
-      body.textContent=(full.textContent||"").trim();
-      void panel.offsetWidth;
-      panel.classList.add("mobs-panel-in");
-      busy=false;
-    },FADE);
-  }
-  nodes.forEach(function(btn){
-    btn.addEventListener("click",function(){
-      if(busy)return;
-      if(btn.getAttribute("aria-expanded")==="true")return;
-      busy=true;activate(btn);
-    });
-  });
-});
-document.querySelectorAll("[data-mobs-phil-cycle]").forEach(function(root){
-  var nodes=Array.prototype.slice.call(root.querySelectorAll(".mobs-phil-node"));
-  var panel=root.querySelector(".mobs-phil-panel");
-  var body=panel&&panel.querySelector(".mobs-phil-panel-body");
-  var ring=root.querySelector(".mobs-phil-ring-active");
-  var hubMark=root.querySelector(".mobs-phil-hub-mark");
-  var hubLabel=root.querySelector(".mobs-phil-hub-label");
-  var busy=false;
-  var current=0;
-  var ringEnd=null;
-  var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var FADE=reduced?0:220;
-  function clearRingEnd(){
-    if(!ring||!ringEnd)return;
-    ring.removeEventListener("transitionend",ringEnd);
-    ringEnd=null;
-  }
-  function setRing(i){
-    if(!ring||!nodes.length)return;
-    var n=nodes.length;
-    var step=100/n;
-    var arc=Math.max(8, Math.min(14, step*0.42));
-    var from=current;
-    var next=i<0?0:i;
-    var target=-(step*next)+(arc/2);
-    ring.style.strokeDasharray=arc+" "+(100-arc);
-    current=next;
-    var btn=nodes[current];
-    if(hubMark)hubMark.textContent=String(current+1).padStart(2,"0");
-    if(hubLabel&&btn)hubLabel.textContent=btn.getAttribute("data-mobs-label")||"";
-    clearRingEnd();
-    if(reduced||from===current){
-      ring.style.transition="none";
-      ring.style.strokeDashoffset=String(target);
-      void ring.getBoundingClientRect();
-      ring.style.transition="";
-      return;
-    }
-    /* Exception: last↔first wraps the short way (6→1 CW, 1→6 CCW). Other moves keep natural direction. */
-    if(from===n-1&&current===0){
-      var wrapCw=target-100;
-      ringEnd=function(e){
-        if(e&&e.propertyName&&e.propertyName!=="stroke-dashoffset")return;
-        clearRingEnd();
-        ring.style.transition="none";
-        ring.style.strokeDashoffset=String(target);
-        void ring.getBoundingClientRect();
-        ring.style.transition="";
-      };
-      ring.addEventListener("transitionend",ringEnd);
-      ring.style.strokeDashoffset=String(wrapCw);
-      return;
-    }
-    if(from===0&&current===n-1){
-      var wrapCcw=target+100;
-      ringEnd=function(e){
-        if(e&&e.propertyName&&e.propertyName!=="stroke-dashoffset")return;
-        clearRingEnd();
-        ring.style.transition="none";
-        ring.style.strokeDashoffset=String(target);
-        void ring.getBoundingClientRect();
-        ring.style.transition="";
-      };
-      ring.addEventListener("transitionend",ringEnd);
-      ring.style.strokeDashoffset=String(wrapCcw);
-      return;
-    }
-    ring.style.strokeDashoffset=String(target);
-  }
-  function activate(btn){
-    var full=btn.querySelector(".mobs-phil-full");
-    var idx=nodes.indexOf(btn);
-    nodes.forEach(function(n){
-      n.classList.toggle("mobs-phil-active",n===btn);
-      n.setAttribute("aria-expanded",n===btn?"true":"false");
-    });
-    setRing(idx<0?0:idx);
-    if(!panel||!body||!full){busy=false;return;}
-    panel.classList.remove("mobs-panel-in");
-    window.setTimeout(function(){
-      body.textContent=(full.textContent||"").trim();
-      void panel.offsetWidth;
-      panel.classList.add("mobs-panel-in");
-      busy=false;
-    },FADE);
-  }
-  setRing(0);
-  nodes.forEach(function(btn){
-    btn.addEventListener("click",function(){
-      if(busy)return;
-      if(btn.getAttribute("aria-expanded")==="true")return;
-      busy=true;activate(btn);
-    });
-  });
-});})();</script>
-<!-- RI enhancement: chrome behavior -->
-<script src="../ri/ri-chrome.js" defer></script>
-</body>
-</html>
+});})();</script></body></html>

@@ -1,9 +1,0 @@
-{
-  "family": "web-experience-validate",
-  "mode": "spec-and-artifact",
-  "experienceSpecPath": "docs/mobs/foundation/reference-implementations/lucas-professional-experience/experience.en.json",
-  "themePath": "docs/mobs/foundation/web-experience/brand-theme.json",
-  "policyPath": "docs/mobs/foundation/web-experience/experience-policy.json",
-  "artifactPath": "pure/en/index.html",
-  "outputPath": "diagnostics/validate-en.json"
-}

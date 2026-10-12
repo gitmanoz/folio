@@ -1,0 +1,32 @@
+{
+  "id": "folio-hybrid-v1",
+  "tier": "L-B",
+  "medium": "web-experience",
+  "theme": {
+    "background": "#111714",
+    "panel": "#19211c",
+    "text": "#f2f1e9",
+    "secondary": "#b9c2b8",
+    "accent": "#cfdf9e",
+    "fontFamily": "Arial, Helvetica, sans-serif"
+  },
+  "patterns": [
+    "banner-hero-split",
+    "manifesto-list",
+    "stacked-default"
+  ],
+  "consumerComponents": [
+    "shared-navigation",
+    "locale-switch",
+    "project-index",
+    "evidence-disclosure",
+    "static-project-preview"
+  ],
+  "scopeAuthorization": "Founder execution mandate: first hybrid Folio slice; local review only, no publication.",
+  "assets": {
+    "toxic-city": {
+      "path": "assets/folio/toxic-city.png",
+      "sha256": "12daf124fc304c38bb62b4861ed348875c6a0393585c7a821019868242a1f20b"
+    }
+  }
+}
